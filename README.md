@@ -1,20 +1,22 @@
 # BCI_An_SSVEP_based_2D_Unity_Video_Game
 <h1>Final Project: Spring 2023 Brain Computer Interfaces: Fundamentals and Applications, NTHU, Taiwan</h2>
 
-<h3>Project members:</h3>
+<h3>1.Project members:</h3>
 <ul>
   <li>巫冠緯           - 111062640</li>
   <li>Wu, Shao-Hung	  -	111065543</li>
   <li>Victor D. Lopez - 110062426</li>
 </ul>
 
-<h3>2.Data description</h3>
+<h3>3.Data description</h3>
 
 <p>As required, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, owner, source, etc.</p>
 
 <ul>
   <li>
     <ins>Number of channels:<ins> 128-channels BIOSEMI (Active electrodes) where the cap layout is found in reference [1]. The electrode placement layout is shown below: 
+    <br/>
+    <br/>
     <br/>
     <p align="center">
       <img src="/Figures/Sensor_positions/sensor_locations.png" width="600" height="400">
@@ -39,6 +41,9 @@
       The description of the experimental design is readily provided in reference [3]. In summary, four healthy subjects with corrected       vision or no vision problems and no neurological disorders and no previous training were subjected to SSVEP stimulations at             different frequencies. EEG data was acquired with a 128 active electrode cap found in reference [2]. All the subjects consented         agreement to the experiments under the Declaration of Helsinki [4]. 
     </p>
   </li>
+  <p>
+
+  <p>
 </ul>
 
 <h3>References</h3>
