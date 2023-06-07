@@ -51,12 +51,14 @@
   </li>
 </ul>
 <h3>4. Model Framework</h3>
-<br/>
 <h3>5. Validation</h3>
-<br/>
-<h3>6. Results</h3>
-<h4>6.1 Preprocessing results</h4>
-<h4>6.1.1 MNE-ICA and MNE-ICA label results</h4>
+<h3>6. Usage</h3>
+  <h4>6.1 Code</h4>
+  <p align="justify">All the code we developed during this project can be found in this repository in the Code directory located in the BCI_An_SSVEP_based_2D_Unity_Video_Game directory. Alternatively, the following link 
+  <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/">Code</a></p>
+<h3>7. Results</h3>
+<h4>7.1 Preprocessing results</h4>
+<h4>7.1.1 MNE-ICA and MNE-ICA label results</h4>
     <p align="justify">The following tables showcase our results after applying ICA to our EEG data and using MNE-ICA label to 
     each component as non-brain artifactual or Brain ICs for raw, band-pass filtered, and EEG data using corrected
     using ASR. We provide averages per SSVEP frequency across all subjects and trials for each of the cases discussed previously:</p>
@@ -73,7 +75,7 @@
     <p align="center">
       <img src="/Figures/ICA_label_averages/28Hz_ICA_label_averages.png">
     </p>
-<h4>6.1.2 Comparison of raw, filtered and ASR data power spectrum plots<h2>
+<h4>7.1.2 Comparison of raw, filtered and ASR data power spectrum plots<h2>
 <br/>
 <br/>
 <h3>References</h3>
