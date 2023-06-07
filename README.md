@@ -1,16 +1,16 @@
 # BCI_An_SSVEP_based_2D_Unity_Video_Game
 <h1>Final Project: Spring 2023 Brain Computer Interfaces: Fundamentals and Applications, NTHU, Taiwan</h2>
 
-<h3>1.Project members:</h3>
+<h3>1. Project members:</h3>
 <ul>
   <li>巫冠緯           - 111062640</li>
   <li>Wu, Shao-Hung	  -	111065543</li>
   <li>Victor D. Lopez - 110062426</li>
 </ul>
 
-<h3>2.Introduction</h3>
+<h3>2. Introduction</h3>
 
-<h3>3.Data description</h3>
+<h3>3. Data description</h3>
 
 <p>As required, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, owner, source, etc.</p>
 
@@ -51,15 +51,22 @@
   </li>
 </ul>
 <br/>
-<h3>4.Model Framework</h3>
+<h3>4. Model Framework</h3>
 <br/>
-<h3>5.Validation</h3>
+<h3>5. Validation</h3>
 <br/>
-<h3>6.Results</h3>
+<h3>6. Results</h3>
 <br/>
 <h2>6.1 Preprocessing results<h2>
-
-
+<br/>
+<h2>6.1.1 MNE-ICA and MNE-ICA labelresults<h2>
+<br/>
+    <p>The following tables showcase our results after applying ICA to our EEG data and using MNE-ICA label to 
+    each component as non-brain artifactual or Brain ICs for raw, band-pass filtered, and EEG data using corrected
+    using ASR. We provide averages per SSVEP frequency for each of the cases discussed previously:</p>
+<br/>
+<h2>6.1.2 Comparison of raw, filtered and ASR data power spectrum plots<h2>
+<br/>
 <br/>
 <h3>References</h3>
   <p>
