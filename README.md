@@ -14,7 +14,7 @@
 
 <ul>
   <li>
-    <ins>Number of channels:<ins> 128-channels BIOSEMI (Active electrodes) where the cap layout is found in reference [1]. The electrode placement layout is shown below: 
+    <ins>Number of channels:</ins> 128-channels BIOSEMI (Active electrodes) where the cap layout is found in reference [1]. The electrode placement layout is shown below: 
     <br/>
     <br/>
     <br/>
@@ -41,9 +41,12 @@
       The description of the experimental design is readily provided in reference [3]. In summary, four healthy subjects with corrected       vision or no vision problems and no neurological disorders and no previous training were subjected to SSVEP stimulations at             different frequencies. EEG data was acquired with a 128 active electrode cap found in reference [2]. All the subjects consented         agreement to the experiments under the Declaration of Helsinki [4]. 
     </p>
   </li>
-  <p>
-
-  <p>
+  <li>
+    <ins>Hardware and Software used: </ins>
+    <p>
+    The description of the software/hardware used is also readily available in reference [3]. In summary, a 21 in CRT computer monitor (168 ± 0.4 Hz) was placed 90 centimeters from each subject. To achieve SSVEP stimulation, a 6 x 6 checkerboard pattern with flashing black and white reversing squares was used. 
+    </p>
+  </li>
 </ul>
 
 <h3>References</h3>
