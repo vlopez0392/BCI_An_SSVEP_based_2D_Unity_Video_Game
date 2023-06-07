@@ -8,10 +8,13 @@
   <li>Victor D. Lopez - 110062426</li>
 </ul>
 
+---
+
 <h3>2. Introduction</h3>
 
-<h3>3. Data description</h3>
+---
 
+<h3>3. Data description</h3>
 <p align="justify">As required by the final project guidelines, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, owner, source, etc.</p>
 
 <ul>
@@ -50,11 +53,23 @@
     </p>
   </li>
 </ul>
+
+---
+
 <h3>4. Model Framework</h3>
+
+---
+
 <h3>5. Validation</h3>
+
+---
+
 <h3>6. Usage</h3>
   <h4>6.1 Code</h4>
   <p align="justify">All the code we developed during this project can be found in this repository in the Code directory located in the main directory. The following link will take you there: <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/tree/main/Code">BCI project Code</a></p>
+
+---
+
 <h3>7. Results</h3>
 <h4>7.1 Preprocessing results</h4>
 <h4>7.1.1 MNE-ICA and MNE-ICA label results</h4>
