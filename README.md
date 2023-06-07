@@ -14,7 +14,7 @@
 
 <ul>
   <li>
-    Number of channels: 128-channels BIOSEMI (Active electrodes) where the cap layout is found in reference [1]. The electrode placement layout is shown below: 
+    <ins>Number of channels:<ins> 128-channels BIOSEMI (Active electrodes) where the cap layout is found in reference [1]. The electrode placement layout is shown below: 
     <br/>
     <p align="center">
       <img src="/Figures/Sensor_positions/sensor_locations.png" width="600" height="400">
@@ -40,3 +40,18 @@
     </p>
   </li>
 </ul>
+
+<h3>References</h3>
+  <p>
+  [1] http://www.biosemi.com/headcap.htm 
+  </p>
+  <p>
+  [2] http://www.bakardjian.com/work/ssvep_data_Bakardjian.html
+  </p>
+  <p>
+  [3] Bakardjian H, Tanaka T, Cichocki A, Optimization of SSVEP brain responses with application to eight-command Brain–Computer Interface, Neurosci Lett, 2010, 469(1):34-38. (http://dx.doi.org/10.1016/j.neulet.2009.11.039)
+  </p>  
+  <p>
+  [4] https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/
+  </p>
+<ol>
