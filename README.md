@@ -10,11 +10,15 @@
 
 <h3>2.Data description</h3>
 
-<p>As required, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which your data was collected, owner, source, etc.</p>
+<p>As required, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, owner, source, etc.</p>
 
 <ul>
   <li>
     Number of channels: 128-channels BIOSEMI (Active electrodes) where the cap layout is found in reference [1]. The electrode placement layout is shown below: 
+    <br/>
+    <p align="center">
+      <img src="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/tree/main/Figures/Sensor_positions/sensor_locations.png">
+    </p>
   </li>
   <br/>
   <li>
