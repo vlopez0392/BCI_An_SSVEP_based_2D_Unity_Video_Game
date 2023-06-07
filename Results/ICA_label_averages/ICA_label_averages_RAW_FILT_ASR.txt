@@ -1,0 +1,12 @@
+sub1_8Hz {'brain': 17, 'muscle': 2, 'eog': 2, 'ecg': 0, 'line_noise': 1, 'ch_noise': 2, 'other': 25}
+sub2_8Hz {'brain': 10, 'muscle': 6, 'eog': 9, 'ecg': 0, 'line_noise': 1, 'ch_noise': 10, 'other': 30}
+sub3_8Hz {'brain': 5, 'muscle': 0, 'eog': 0, 'ecg': 0, 'line_noise': 1, 'ch_noise': 4, 'other': 30}
+sub4_8Hz {'brain': 9, 'muscle': 3, 'eog': 1, 'ecg': 2, 'line_noise': 2, 'ch_noise': 12, 'other': 24}
+sub1_14Hz {'brain': 13, 'muscle': 5, 'eog': 7, 'ecg': 0, 'line_noise': 1, 'ch_noise': 2, 'other': 24}
+sub2_14Hz {'brain': 7, 'muscle': 9, 'eog': 9, 'ecg': 2, 'line_noise': 3, 'ch_noise': 3, 'other': 33}
+sub3_14Hz {'brain': 3, 'muscle': 0, 'eog': 0, 'ecg': 0, 'line_noise': 1, 'ch_noise': 6, 'other': 27}
+sub4_14Hz {'brain': 6, 'muscle': 5, 'eog': 1, 'ecg': 1, 'line_noise': 1, 'ch_noise': 17, 'other': 21}
+sub1_28Hz {'brain': 13, 'muscle': 3, 'eog': 0, 'ecg': 0, 'line_noise': 9, 'ch_noise': 3, 'other': 20}
+sub2_28Hz {'brain': 16, 'muscle': 9, 'eog': 14, 'ecg': 1, 'line_noise': 3, 'ch_noise': 13, 'other': 29}
+sub3_28Hz {'brain': 10, 'muscle': 1, 'eog': 0, 'ecg': 0, 'line_noise': 4, 'ch_noise': 5, 'other': 28}
+sub4_28Hz {'brain': 7, 'muscle': 3, 'eog': 1, 'ecg': 1, 'line_noise': 2, 'ch_noise': 20, 'other': 16}
