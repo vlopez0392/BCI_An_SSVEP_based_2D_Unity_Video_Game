@@ -54,7 +54,7 @@
 <h3>5. Validation</h3>
 <h3>6. Usage</h3>
   <h4>6.1 Code</h4>
-  <p align="justify">All the code we developed during this project can be found in this repository in the Code directory. The following link will take you there: <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/">BCI project Code</a></p>
+  <p align="justify">All the code we developed during this project can be found in this repository in the Code directory. The following link will take you there: <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/Code">BCI project Code</a></p>
 <h3>7. Results</h3>
 <h4>7.1 Preprocessing results</h4>
 <h4>7.1.1 MNE-ICA and MNE-ICA label results</h4>
