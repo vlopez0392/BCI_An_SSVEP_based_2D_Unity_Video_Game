@@ -17,7 +17,7 @@
     Number of channels: 128-channels BIOSEMI (Active electrodes) where the cap layout is found in reference [1]. The electrode placement layout is shown below: 
     <br/>
     <p align="center">
-      <img src="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/tree/main/Figures/Sensor_positions/sensor_locations.png">
+      <img src="/Figures/Sensor_positions/sensor_locations.png" width="600" height="600">
     </p>
   </li>
   <br/>
