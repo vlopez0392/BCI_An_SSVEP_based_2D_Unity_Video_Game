@@ -8,6 +8,8 @@
   <li>Victor D. Lopez - 110062426</li>
 </ul>
 
+<h3>2.Introduction</h3>
+
 <h3>3.Data description</h3>
 
 <p>As required, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, owner, source, etc.</p>
@@ -48,7 +50,17 @@
     </p>
   </li>
 </ul>
+<br/>
+<h3>4.Model Framework</h3>
+<br/>
+<h3>5.Validation</h3>
+<br/>
+<h3>6.Results</h3>
+<br/>
+<h2>6.1 Preprocessing results<h2>
 
+
+<br/>
 <h3>References</h3>
   <p>
   [1] http://www.biosemi.com/headcap.htm 
