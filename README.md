@@ -64,6 +64,7 @@
     using ASR. We provide averages per SSVEP frequency across all subjects and trials for each of the cases discussed previously:</p>
     <ins>SSVEP 8 Hz frequency</ins>
     <br/>
+    <br/>
     <p align="center">
       <img src="/Figures/ICA_label_averages/8Hz_ICA_label_averages.png">
     </p>
