@@ -50,7 +50,6 @@
     </p>
   </li>
 </ul>
-<br/>
 <h3>4. Model Framework</h3>
 <br/>
 <h3>5. Validation</h3>
