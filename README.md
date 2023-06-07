@@ -61,15 +61,15 @@
     <p align="justify">The following tables showcase our results after applying ICA to our EEG data and using MNE-ICA label to 
     each component as non-brain artifactual or Brain ICs for raw, band-pass filtered, and EEG data using corrected
     using ASR. We provide averages per SSVEP frequency across all subjects and trials for each of the cases discussed previously:</p>
-    <h4 align = "center"><ins>SSVEP 8 Hz frequency</ins></h4>
+    <h4 align = "center"><ins>SSVEP 8 Hz frequency - 4 subjects with 5 trials each </ins></h4>
     <p align="center">
       <img src="/Figures/ICA_label_averages/8Hz_ICA_label_averages.png">
     </p>
-    <h4 align = "center"><ins>SSVEP 14 Hz frequency</ins></h4>
+    <h4 align = "center"><ins>SSVEP 14 Hz frequency - 4 subjects with 5 trials each</ins></h4>
     <p align="center">
       <img src="/Figures/ICA_label_averages/14Hz_ICA_label_averages.png">
     </p>
-    <h4 align = "center"><ins>SSVEP 28 Hz frequency</ins></h4>
+    <h4 align = "center"><ins>SSVEP 28 Hz frequency - 4 subjects with 5 trials each</ins></h4>
     <p align="center">
       <img src="/Figures/ICA_label_averages/28Hz_ICA_label_averages.png">
     </p>
