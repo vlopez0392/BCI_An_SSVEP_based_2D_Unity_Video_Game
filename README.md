@@ -12,7 +12,7 @@
 
 <h3>3. Data description</h3>
 
-<p>As required, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, owner, source, etc.</p>
+<p align="justify">As required by the final project guidelines, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, owner, source, etc.</p>
 
 <ul>
   <li>
@@ -39,7 +39,7 @@
   <li><ins>Dataset owner:</ins>  Copyright holders of the database are Dr. Hovagim Bakardjian and RIKEN-LABSP [2].</li>
   <br/>
   <li><ins>Description of the experimental design, paradigms, and procedure to collect the data:</ins>
-    <p>
+    <p align="justify">
       The description of the experimental design is readily provided in reference [3]. In summary, four healthy subjects with corrected       vision or no vision problems and no neurological disorders and no previous training were subjected to SSVEP stimulations at             different frequencies. EEG data was acquired with a 128 active electrode cap found in reference [2]. All the subjects consented         agreement to the experiments under the Declaration of Helsinki [4]. 
     </p>
   </li>
@@ -59,7 +59,7 @@
 <br/>
 <h4>6.1 Preprocessing results</h4>
 <h4>6.1.1 MNE-ICA and MNE-ICA labelresults</h4>
-    <p>The following tables showcase our results after applying ICA to our EEG data and using MNE-ICA label to 
+    <p align="justify">The following tables showcase our results after applying ICA to our EEG data and using MNE-ICA label to 
     each component as non-brain artifactual or Brain ICs for raw, band-pass filtered, and EEG data using corrected
     using ASR. We provide averages per SSVEP frequency across all subjects and trials for each of the cases discussed previously:</p>
     <h4 align = "center"><ins>SSVEP 8 Hz frequency</ins></h4>
