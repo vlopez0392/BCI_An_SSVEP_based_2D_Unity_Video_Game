@@ -63,8 +63,6 @@
     each component as non-brain artifactual or Brain ICs for raw, band-pass filtered, and EEG data using corrected
     using ASR. We provide averages per SSVEP frequency across all subjects and trials for each of the cases discussed previously:</p>
     <h4><ins>SSVEP 8 Hz frequency</ins></h4>
-    <br/>
-    <br/>
     <p align="center">
       <img src="/Figures/ICA_label_averages/8Hz_ICA_label_averages.png">
     </p>
