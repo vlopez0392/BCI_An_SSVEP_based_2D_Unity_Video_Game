@@ -45,7 +45,7 @@
   </li>
   <li>
     <ins>Hardware and Software used: </ins>
-    <p>
+    <p align="justify">
     The description of the software/hardware used is also readily available in reference [3]. In summary, a 21 in CRT computer monitor (168 ± 0.4 Hz) was placed 90 centimeters from each subject. To achieve SSVEP stimulation, a 6 x 6 checkerboard pattern with flashing black and white reversing squares was used. 
     </p>
   </li>
@@ -56,7 +56,7 @@
 <br/>
 <h3>6. Results</h3>
 <h4>6.1 Preprocessing results</h4>
-<h4>6.1.1 MNE-ICA and MNE-ICA labelresults</h4>
+<h4>6.1.1 MNE-ICA and MNE-ICA label results</h4>
     <p align="justify">The following tables showcase our results after applying ICA to our EEG data and using MNE-ICA label to 
     each component as non-brain artifactual or Brain ICs for raw, band-pass filtered, and EEG data using corrected
     using ASR. We provide averages per SSVEP frequency across all subjects and trials for each of the cases discussed previously:</p>
