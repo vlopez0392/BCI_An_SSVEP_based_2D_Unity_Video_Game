@@ -65,7 +65,12 @@
     using ASR. We provide averages per SSVEP frequency across all subjects and trials for each of the cases discussed previously:</p>
     <br/>
     <ins>8 Hz</ins>
+    <p align="center">
+      <img src="/Figures/ICA_label_averages/8Hz_ICA_label_averages.png">
+    </p>
+    <br/>
     <ins>14 Hz</ins>
+    <br/>
     <ins>28 Hz</ins>
 <br/>
 <h4>6.1.2 Comparison of raw, filtered and ASR data power spectrum plots<h2>
