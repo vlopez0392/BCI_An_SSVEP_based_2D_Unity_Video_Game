@@ -17,7 +17,7 @@
     Number of channels: 128-channels BIOSEMI (Active electrodes) where the cap layout is found in reference [1]. The electrode placement layout is shown below: 
     <br/>
     <p align="center">
-      <img src="/Figures/Sensor_positions/sensor_locations.png" width="600" height="600">
+      <img src="/Figures/Sensor_positions/sensor_locations.png" width="600" height="400">
     </p>
   </li>
   <br/>
