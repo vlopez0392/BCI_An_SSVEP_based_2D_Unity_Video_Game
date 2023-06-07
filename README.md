@@ -56,7 +56,6 @@
 <h3>5. Validation</h3>
 <br/>
 <h3>6. Results</h3>
-<br/>
 <h4>6.1 Preprocessing results</h4>
 <h4>6.1.1 MNE-ICA and MNE-ICA labelresults</h4>
     <p align="justify">The following tables showcase our results after applying ICA to our EEG data and using MNE-ICA label to 
@@ -72,9 +71,8 @@
     </p>
     <h4 align = "center"><ins>SSVEP 28 Hz frequency</ins></h4>
     <p align="center">
-      <img src="/Figures/ICA_label_averages/14Hz_ICA_label_averages.png">
+      <img src="/Figures/ICA_label_averages/28Hz_ICA_label_averages.png">
     </p>
-<br/>
 <h4>6.1.2 Comparison of raw, filtered and ASR data power spectrum plots<h2>
 <br/>
 <br/>
