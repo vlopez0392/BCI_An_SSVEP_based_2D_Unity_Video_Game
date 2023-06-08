@@ -19,7 +19,7 @@
 <p align="justify">As required by the final project guidelines, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, the owner and its source.</p>
 
 <ul>
-  <li>
+  <li align="justify">
     <ins>Number of channels</ins>: 128-channels BIOSEMI (Active electrodes) where the cap layout is found in reference [1]. The electrode placement layout is shown below: 
     <br/>
     <br/>
@@ -29,25 +29,25 @@
     </p>
   </li>
   <br/>
-  <li>
+  <li align="justify">
     	<ins>Data size</ins>: 
       <ul>
-        <li>Number of subjects: 4</li>
-        <li>Number of trials per subject: 5 </li>
-        <li>Number of SSVEP stimulation frequencies available: 8 Hz, 14 Hz, 28 Hz</li>
+        <li align="justify">Number of subjects: 4</li>
+        <li align="justify">Number of trials per subject: 5 </li>
+        <li align="justify">Number of SSVEP stimulation frequencies available: 8 Hz, 14 Hz, 28 Hz</li>
       </ul>
   </li>
   <br/>
-  <li><ins>Website where the data was collected</ins>: The data was collected from the website provided in reference [2]. </li>
+  <li align="justify"><ins>Website where the data was collected</ins>: The data was collected from the website provided in reference [2]. </li>
    <br/>
-  <li><ins>Dataset owner</ins>:  Copyright holders of the database are Dr. Hovagim Bakardjian and RIKEN-LABSP [2].</li>
+  <li align="justify"><ins>Dataset owner</ins>:  Copyright holders of the database are Dr. Hovagim Bakardjian and RIKEN-LABSP [2].</li>
   <br/>
-  <li><ins>Description of the experimental design, paradigms, and procedure to collect the data</ins>:
+  <li align="justify"><ins>Description of the experimental design, paradigms, and procedure to collect the data</ins>:
     <p align="justify">
       The description of the experimental design is readily provided in reference [3]. In summary, four healthy subjects with corrected       vision or no vision problems and no neurological disorders and no previous training were subjected to SSVEP stimulations at             different frequencies. EEG data was acquired with a 128 active electrode cap found in reference [2]. All the subjects consented         agreement to the experiments under the Declaration of Helsinki [4]. 
     </p>
   </li>
-  <li>
+  <li align="justify">
     <ins>Hardware and Software used</ins>:
     <p align="justify">
     The description of the software/hardware used is also readily available in reference [3]. In summary, a 21 in CRT computer monitor (168 ± 0.4 Hz) was placed 90 centimeters from each subject. To achieve SSVEP stimulation, a 6 x 6 checkerboard pattern with flashing black and white reversing squares was used. 
