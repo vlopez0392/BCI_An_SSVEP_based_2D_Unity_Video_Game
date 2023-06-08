@@ -41,10 +41,12 @@ def main():
                             print("Fatal Error: Invalid number of trials.")
                         else:
                             ssvep_preprocessAPI.plot_Raw_data(raw_dict,num_trials,None);
+                    else:
+                        print("Fatal Error: Please enter input arguments correctly");
             else:
                 print("Fatal Error: Input invalid subject, frequency");
     elif args_in[0] == '-model':
         pass;
     else:
-        print("Please enter input arguments correctly");
+        print("Fatal Error: Please enter input arguments correctly");
 main();
