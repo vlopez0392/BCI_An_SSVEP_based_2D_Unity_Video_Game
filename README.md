@@ -3,8 +3,8 @@
 
 <h3 align="center">1. Project members</h3>
 <ul>
-  <li>巫冠緯           - 111062640</li>
-  <li>Wu, Shao-Hung	  -	111065543</li>
+  <li>巫冠緯           - 111065543</li>
+  <li>Wu, Shao-Hung	  -	111062640</li>
   <li>Victor D. Lopez - 110062426</li>
 </ul>
 
@@ -85,8 +85,9 @@
     <br/>
     <li><strong>FILT:</strong>  Contains the brain source bandpass (1-50 Hz) filtered data in .fif format</li>
     <br/>
-    <li><strong>ASR:</strong>  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR)data in .fif format</li>
+    <li><strong>ASR:</strong>  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR) data in .fif format</li>
   </ul>
+
   <p align="justify">The following datasets are <strong>optional</strong> to execute the code and are only necessary if the data preprocessing process is to be carried out. Note that this is very computationally expensive. Hardware acceleration with an NVIDIA A100 GPU in a Google Colab (Pro) environment was performed to carry out data preprocessing. We do not recommend performing data preprocessing locally.</p>
   <ul>  
      <li><strong>SSVEP_8Hz</strong>:  Contains the raw data in .MAT format</li>
