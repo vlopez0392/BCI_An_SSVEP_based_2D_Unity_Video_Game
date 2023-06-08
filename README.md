@@ -79,7 +79,7 @@
   <p align="center">
       <img src="/Figures/usage/code_download_usage.png">
   </p>
-  <p align="justify">The following datasets are <strong>required</strong> to execute the code demo: Download here: <a href = "https://drive.google.com/drive/folders/1RRNWbd4Qa-aQntIK8nYdbixSbBvO-wfO"></a></p>
+  <p align="justify">The following datasets are <strong>required</strong> to execute the code demo:<a href = "https://drive.google.com/drive/folders/1RRNWbd4Qa-aQntIK8nYdbixSbBvO-wfO"> Download here: </a></p>
   <ul>  
      <li><strong>RAW:</strong>  Contains the brain source raw data in .fif format</li>
     <br/>
