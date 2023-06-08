@@ -81,12 +81,18 @@
   <p align="justify">The following datasets are required to execute the code demo:</p>
   <ul>  
     <li>RAW:  Contains the brain source raw data in .fif format</li>
+    <br/>
+    <li>FILT: Contains the brain source bandpass (1-50 Hz) filtered data in .fif format</li>
+    <br/>
+    <li>ASR:  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR)data in .fif format</li>
+    <br/>
+  </ul>
+  <p align="justify">The following datasets are optional to execute the code demo:</p>
+  <ul> 
+    <li>RAW:  Contains the brain source raw data in .fif format</li>
     <li>FILT: Contains the brain source bandpass (1-50 Hz) filtered data in .fif format</li>
     <li>ASR:  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR)data in .fif format</li>
   </ul>
-  <br/>
-  <p align="justify">The following datasets are optional to execute the code demo:</p>
-
 ---
 
 <h3 align="center">7. Results</h3>
