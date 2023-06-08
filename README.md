@@ -118,9 +118,15 @@ described in the previous subsection.
 </p>
 <h4>6.2.4.1 Plotting PSD and time series plots from the terminal </h4>  
 <p align="justify">
-Example 1: Plot a time series eeg signal for all channels of the raw brain source dataset for subject 1 and a frequency of 8Hz. 
+Example 1: Plot a time series eeg signal for all channels of the raw brain source dataset for subject 1 and a frequency of 8Hz. Plot a single trial 
 
 The usage is as follows:
+
+<code align="justify">$ python code_demo.py [-plot,-model], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials] </code>
+
+Then, to plot the EEG time series of Example 1 we input:
+
+<code align="justify">$ python code_demo.py -plot - 1 8 -raw 1</code>
 </p>
 
 
