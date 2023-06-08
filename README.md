@@ -69,6 +69,7 @@
   <p align="justify">All the code we developed during this project can be found in this repository in the Code directory located in the main directory. The following link will take you there: <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/tree/main/Code">BCI project Code</a></p>
 
   <h3>6.2 Usage example</h3>
+  <h4>6.1.1 Download the code and datasets</h4>
   <p align="justify">In a drectory of your choice run the following command from your terminal:
   </p>
   <p align="justify">
@@ -78,7 +79,7 @@
   <p align="center">
       <img src="/Figures/usage/code_download_usage.png">
   </p>
-  <p align="justify">The following datasets are <strong>required</strong> to execute the code demo:</p>
+  <p align="justify">The following datasets are <strong>required</strong> to execute the code demo: Download here: <a href = "https://drive.google.com/drive/folders/1RRNWbd4Qa-aQntIK8nYdbixSbBvO-wfO"></a></p>
   <ul>  
      <li><strong>RAW:</strong>  Contains the brain source raw data in .fif format</li>
     <br/>
@@ -97,7 +98,7 @@
   <ul> 
 
   </ul>
-  
+<h4>6.1.2 </h4>  
 ---
 
 <h3 align="center">7. Results</h3>
