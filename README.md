@@ -69,9 +69,11 @@
   <p align="justify">All the code we developed during this project can be found in this repository in the Code directory located in the main directory. The following link will take you there: <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/tree/main/Code">BCI project Code</a></p>
 
   <h4>6.2 Usage example</h4>
-  <p align="justify">In a drectory of your choice run the following command from your terminal:</p>
-  <code align="justify">$ git clone https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game</code>
-  <br/>
+  <p align="justify">In a drectory of your choice run the following command from your terminal:
+  </p>
+  <p align="justify">
+    <code align="justify">$ git clone https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game</code>
+  </p>
   <p align="justify">You can also download a zip file of the code by pressing the green <>Code button as shown  in the figure below:</p>
   <p align="center">
       <img src="/Figures/usage/code_download_usage.png">
