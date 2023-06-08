@@ -3,9 +3,9 @@
 
 <h3 align="center">1. Project members</h3>
 <ul>
-  <li>巫冠緯           - 111065543 - </li>
-  <li>Wu, Shao-Hung	  -	111062640 - </li>
-  <li>Victor D. Lopez - 110062426 - </li>
+  <li>巫冠緯           - 111065543  </li>
+  <li>Wu, Shao-Hung	  -	111062640  </li>
+  <li>Victor D. Lopez - 110062426  </li>
 </ul>
 
 ---
@@ -76,7 +76,7 @@ The reliability, credibility and quality of the data sources is justified both t
 
 <h3 align="center">6. Usage</h3>
   <h3>6.1 Code</h3>
-  <p align="justify">All the code we developed during this project can be found in this repository in the Code directory located in the main directory. The following link will take you there: <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/tree/main/Code">BCI project Code</a></p>
+  <p align="justify">All the code we developed during this project can be found in this repository in the Code directory located in the main directory. The following link will take you there: <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/tree/main/Code">Code</a></p>
 
   <h3>6.2 Usage example</h3>
   <h3>6.2.1 Download the code and datasets</h3>
@@ -111,7 +111,18 @@ The reliability, credibility and quality of the data sources is justified both t
 3 python files for preprocessing, model and code demo are required along with the required datasets described in the previous subsections. The shown pycache directory is not required. 
 </p>
 <h3>6.2.3 Required dependencies </h3>  
-<h3>6.2.4 Code demo </h3>  
+<h3>6.2.4 Code demo </h3> 
+<p align="justify">
+Once again, make sure you have followed the steps in the sub-sections 6.2.1 and 6.2.2 and go into the directory where the code and required datasets are stored. In addition, make sure you have installed the required dependencies
+described in the previous subsection. 
+</p>
+<h4>6.2.4.1 Plotting PSD and time series plots from the terminal </h4>  
+<p align="justify">
+Example 1: Plot a time series eeg signal for all channels of the raw brain source dataset for subject 1 and a frequency of 8Hz. 
+
+The usage is as follows:
+</p>
+
 
 ---
 
