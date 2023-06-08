@@ -78,7 +78,13 @@
   <p align="center">
       <img src="/Figures/usage/code_download_usage.png">
   </p>
-  
+  <p align="justify">The following datasets are required to execute the code demo:</p>
+  <ul>  
+    <li>RAW:  Contains the brain source raw data in .fif format</li>
+    <li>FILT: Contains the brain source bandpass (1-50 Hz) filtered data in .fif format</li>
+    <li>ASR:  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR)data in .fif formar</li>
+  <ul>
+  <p align="justify">The following datasets are optional to execute the code demo:</p>
 ---
 
 <h3 align="center">7. Results</h3>
@@ -100,7 +106,7 @@
     <p align="center">
       <img src="/Figures/ICA_label_averages/28Hz_ICA_label_averages.png">
     </p>
-<h3>7.1.2 Visualization of raw, filtered and ASR data power spectrum plots<h3>
+<h4>7.1.2 Visualization of raw, filtered and ASR data power spectrum plots<h4>
 
 ---
 
