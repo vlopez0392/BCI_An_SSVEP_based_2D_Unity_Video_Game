@@ -61,7 +61,7 @@ The reliability, credibility and quality of the data sources is justified both t
 <ol>
   <li align="justify">The reliability and credibility of the sources is provided through literature review of references [2],[3] and [5]. Part of the dataset used in this project was obtained in experiments conducted reference [3] and whose details have already been thoroughly described in the previous section. </li>
   <br/>
-  <li align="justify">The quality of the sources is provided by analyzing the independent components within the EEG data through the MNE library ICA and ICA-label packages in references [6][7]. We provide the average numbers of ICs classified by ICLabel per SSVEP frequency as required by the final project guidelines in section 7 Results sub -section 7.1.1. In addition, we provide several power spectrum plots in sub-section 7.1.2 to qualitatively compare the the power at the target frequencies between raw, filtered and artificially subspace reconstructed data (ASR).</li>
+  <li align="justify">The quality of the sources is provided by analyzing the independent components within the EEG data through the MNE library ICA and ICA-label packages in references [6],[7]. We provide the average numbers of ICs classified by ICLabel per SSVEP frequency as required by the final project guidelines in section 7 Results sub -section 7.1.1. In addition, we provide several power spectrum plots in sub-section 7.1.2 to qualitatively compare the the power at the target frequencies between raw, filtered and artificially subspace reconstructed data (ASR).</li>
 </ol>
 
 ---
@@ -79,7 +79,7 @@ The reliability, credibility and quality of the data sources is justified both t
   <p align="justify">All the code we developed during this project can be found in this repository in the Code directory located in the main directory. The following link will take you there: <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/tree/main/Code">BCI project Code</a></p>
 
   <h3>6.2 Usage example</h3>
-  <h4>6.1.1 Download the code and datasets</h4>
+  <h3>6.1.1 Download the code and datasets</h3>
   <p align="justify">In a drectory of your choice run the following command from your terminal:
   </p>
   <p align="justify">
@@ -104,15 +104,15 @@ The reliability, credibility and quality of the data sources is justified both t
   </ol> 
 
   </ul>
-<h4>6.1.2 Required directory structure </h4>  
- <p align="justify"> </p>
+<h3>6.1.2 Required directory structure </h3>  
+ <p align="justify">Once the repository has been cloned and the datasets have been downloaded to the directory of your choice, some housekeeping must be done in your directory to ensure correct code execution. </p>
 
 
 ---
 
 <h3 align="center">7. Results</h3>
 <h3>7.1 Preprocessing results</h3>
-<h4>7.1.1 MNE-ICA and MNE-ICA label results</h4>
+<h3>7.1.1 MNE-ICA and MNE-ICA label results</h3>
     <p align="justify">The following tables showcase our results after applying ICA to our EEG data and using MNE-ICA label to 
     each component as non-brain artifactual or Brain ICs for raw, band-pass filtered, and EEG data using corrected
     using ASR. We provide averages per SSVEP frequency across all subjects and trials for each of the cases discussed previously:</p>
@@ -129,7 +129,7 @@ The reliability, credibility and quality of the data sources is justified both t
     <p align="center">
       <img src="/Figures/ICA_label_averages/28Hz_ICA_label_averages.png">
     </p>
-<h4>7.1.2 Visualization of raw, filtered and ASR data power spectrum plots<h4>
+<h3>7.1.2 Visualization of raw, filtered and ASR data power spectrum plots<h3>
 
 ---
 
