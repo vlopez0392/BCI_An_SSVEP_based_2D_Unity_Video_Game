@@ -3,9 +3,9 @@
 
 <h3 align="center">1. Project members</h3>
 <ul>
-  <li>巫冠緯           - 111065543</li>
-  <li>Wu, Shao-Hung	  -	111062640</li>
-  <li>Victor D. Lopez - 110062426</li>
+  <li>巫冠緯           - 111065543 - </li>
+  <li>Wu, Shao-Hung	  -	111062640 - </li>
+  <li>Victor D. Lopez - 110062426 - </li>
 </ul>
 
 ---
@@ -61,7 +61,7 @@ The reliability, credibility and quality of the data sources is justified both t
 <ol>
   <li align="justify">The reliability and credibility of the sources is provided through literature review of references [2],[3] and [5]. Part of the dataset used in this project was obtained in experiments conducted reference [3] and whose details have already been thoroughly described in the previous section. </li>
   <br/>
-  <li align="justify">The quality of the sources is provided by analyzing the independent components within the EEG data along with the MNE library ICA and ICA-label packages in references [6][7]  </li>
+  <li align="justify">The quality of the sources is provided by analyzing the independent components within the EEG data through the MNE library ICA and ICA-label packages in references [6][7]. We provide the average numbers of ICs classified by ICLabel per SSVEP frequency as required by the final project guidelines in section 7 Results sub -section 7.1.1. In addition, we provide several power spectrum plots in sub-section 7.1.2 to qualitatively compare the the power at the target frequencies between raw, filtered and artificially subspace reconstructed data (ASR).</li>
 </ol>
 
 ---
@@ -95,7 +95,7 @@ The reliability, credibility and quality of the data sources is justified both t
     <li align="justify"><strong>FILT:</strong>  Contains the brain source bandpass (1-50 Hz) filtered data in .fif format</li>
     <li align="justify"><strong>ASR:</strong>  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR) data in .fif format</li>
   </ol>
-  <p align="justify">The following datasets [2] are <strong>optional</strong> and are for developing purposes only. No code demo will be provided for data preprocessing because this process is very computationally expensive Hardware acceleration with an NVIDIA A100 GPU in a Google Colab (Pro) environment was performed to carry out data preprocessing. Total processing time was around 1.5 hours. We do not recommend performing data preprocessing locally. <a href = "https://drive.google.com/drive/folders/1tIW4ZFdN1LiKlRQBDkMeIuwmwb30VmV_?usp=sharing"> Download optional datasets here</a>.</p>
+  <p align="justify">The following datasets [2] are <strong>optional</strong> and are for developing purposes only. No code demo will be provided for data preprocessing because this process is very computationally expensive.Hardware acceleration with an NVIDIA A100 GPU in a Google Colab (Pro) environment was performed to carry out data preprocessing. Total processing time was around 1.5 hours. We do not recommend performing data preprocessing locally. <a href = "https://drive.google.com/drive/folders/1tIW4ZFdN1LiKlRQBDkMeIuwmwb30VmV_?usp=sharing"> Download optional datasets here</a>.</p>
   <ol>  
     <li align="justify"><strong>SSVEP_8Hz</strong>:   Contains the raw data for 8Hz frequency in .MAT format</li>
     <li align="justify"><strong> SSVEP_14Hz</strong>: Contains the raw data for 14Hz frequency in .MAT format</li>
