@@ -79,7 +79,7 @@ The reliability, credibility and quality of the data sources is justified both t
   <p align="justify">All the code we developed during this project can be found in this repository in the Code directory located in the main directory. The following link will take you there: <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/tree/main/Code">BCI project Code</a></p>
 
   <h3>6.2 Usage example</h3>
-  <h3>6.1.1 Download the code and datasets</h3>
+  <h3>6.2.1 Download the code and datasets</h3>
   <p align="justify">In a drectory of your choice run the following command from your terminal:
   </p>
   <p align="justify">
@@ -104,9 +104,14 @@ The reliability, credibility and quality of the data sources is justified both t
   </ol> 
 
   </ul>
-<h3>6.1.2 Required directory structure </h3>  
- <p align="justify">Once the repository has been cloned and the datasets have been downloaded to the directory of your choice, some housekeeping must be done in your directory to ensure correct code execution. </p>
-
+<h3>6.2.2 Required directory structure </h3>  
+ <p align="justify">Once the repository has been cloned and the datasets have been downloaded to the directory of your choice, some housekeeping must be done in your directory to ensure correct code execution. The following figure shows the required directory structure (both GUI and terminal) to execute the code demo</p>
+<p align="center">
+      <img src="/Figures/usage/directory.png">
+</p>
+<p align="justify">
+3 python files for preprocessing, model and code demo are required along with the required datasets described in the previous subsections. The shown pycache directory is not required. 
+</p>
 
 ---
 
