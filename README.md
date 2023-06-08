@@ -157,7 +157,7 @@ The following EEG time series plot is output:
 
 Then, to plot the PSD plot of Example 2 we input:
 
-<code align="justify">$ python code_demo.py -plot -psd 1 14 -raw 1</code>
+<code align="justify">$ python code_demo.py -plot -psd 1 14 -asr</code>
 
 PSD plots for all trials will be output. The following figure shows the PSD plot of the selected ASR data for trial 1:
 </p>
