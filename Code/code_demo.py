@@ -8,6 +8,7 @@ PTIME_args_len = 6;
 PSD_args =  ['-plot', '-psd']
 PTIME_args = ['-plot', '-time']
 target_directories = ['-raw', '-filt','-asr'];
+MODEL_args = ['-raw','-asr']
 
 def main():
     args_in = sys.argv[1:]

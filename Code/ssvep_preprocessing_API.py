@@ -8,6 +8,8 @@ from mne.preprocessing import ICA;
 import sklearn
 import mne_icalabel
 
+### Designed by Victor D. Lopez :)
+
 #EEG system data
 n_channels = 128
 sampling_freq = 256
@@ -369,6 +371,7 @@ def plot_Raw_data(rawDict, trials, pick_channels):
         for trial in range(0,trials):
             currKey = key_list[trial];
             rawDict[currKey].plot(scalings = 'auto' , title = currKey);
+            plt.show();
     else: 
         print("Invalid number of trials");
         return None;
@@ -376,13 +379,12 @@ def plot_Raw_data(rawDict, trials, pick_channels):
 ###Plot PSD - Input dictionary of mne Raw objects and in the desired frequency range
 ###         - Outputs power spectrum plots of all trials of a given subject and SSVEP frequency
 def plot_Raw_PSD(rawDict, fmin, fmax, pick_channels = None, average = True):
-    
     if pick_channels is not None:
         pick_channels = chooseChannels(pick_channels)
 
     for key,data in rawDict.items():
           spec = data.compute_psd(average = 'mean',fmin = fmin, fmax = fmax, picks = pick_channels);
-          spec.plot(picks='data', exclude='bads',average = average, );    
+          spec.plot(picks='data', exclude='bads',average = average);    
           plt.title(key);
     plt.show();
 
