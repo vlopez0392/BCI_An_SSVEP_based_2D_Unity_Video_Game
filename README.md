@@ -71,6 +71,7 @@
   <h4>6.2 Usage example</h4>
   <p align="justify">In a drectory of your choice run the following command from your terminal:</p>
   <code align="justify">$ git clone https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game<code>
+
 ---
 
 <h3 align="center">7. Results</h3>
