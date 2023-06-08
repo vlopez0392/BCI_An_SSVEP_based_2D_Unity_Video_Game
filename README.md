@@ -115,14 +115,17 @@ The reliability, credibility and quality of the data sources is justified both t
 <p align="justify">
 Once again, make sure you have followed the steps in the sub-sections 6.2.1 and 6.2.2 and go into the directory where the code and required datasets are stored. In addition, make sure you have installed the required dependencies
 described in the previous subsection. 
-</p>
-<h4>6.2.4.1 Plotting PSD and EEG time series plots from the terminal </h4>  
-<p align="justify">
-<strong>Example 1</strong>: Plot a time series eeg signal for all channels of the raw brain source dataset for subject 1 and a frequency of 8Hz. Plot a single trial 
 
+</p>
+<h4>6.2.4.1 Plotting PSD and EEG time series plots from the terminal </h4> 
+<p align="justify">
 The usage is as follows:
 
 <code align="justify">$ python code_demo.py [-plot,-model], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials -> 'time ONLY'] </code>
+</p>
+
+<p align="justify">
+<strong>Example 1</strong>: Plot a time series eeg signal for all channels of the raw brain source dataset for subject 1 and a frequency of 8Hz. Plot a single trial 
 
 Then, to plot the EEG time series of Example 1 we input:
 
@@ -138,9 +141,9 @@ The following EEG time series plot is output:
 
 Then, to plot the PSD plot of Example 2 we input:
 
-<code align="justify">$ python code_demo.py -plot -psd 2 14 -raw 1</code>
+<code align="justify">$ python code_demo.py -plot -psd 1 14 -raw 1</code>
 
-PSD plots for all trials will be output. The following figure shows the PSD plot of the selected ASR data:
+PSD plots for all trials will be outpue. The following figure shows the PSD plot of the selected ASR data for trial 1:
 </p>
 <p align="center">
       <img src="/Figures/usage/example2.png">
