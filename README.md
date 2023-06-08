@@ -112,7 +112,7 @@ The reliability, credibility and quality of the data sources is justified both t
 </p>
 <h3>6.2.3 Required dependencies </h3>  
   <ul>  
-    <li align="justify">python = 3.11.1</li>
+    <li align="justify">python = 3.11.1</li> 
     <li align="justify">scipy = 1.10.1</li>
     <li align="justify">mne   = 1.4.0</li>
     <li align="justify">numpy=  1.23.5 (Version < 1.24.0 required for asr)</li>
@@ -120,6 +120,7 @@ The reliability, credibility and quality of the data sources is justified both t
     <li align="justify">sklearn = 1.2.2</li>
     <li align="justify">mne_icalabel = 0.4</li>
     <li align="justify">torch = 2.0.1</li>
+    <li align="justify">asr [8]</li> 
   </ul>  
 <h3>6.2.4 Code demo </h3> 
 <p align="justify">
@@ -218,5 +219,8 @@ Note: DO NOT try to execute any of the cells unless you have original dataset in
   </p>
   <p>
   [7] https://mne.tools/mne-icalabel/stable/index.html
+  </p>
+  <p>
+  [8] https://github.com/DiGyt/asrpy
   </p>
 <ol>
