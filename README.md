@@ -25,7 +25,7 @@
     <br/>
     <br/>
     <p align="center">
-      <img src="/Figures/Sensor_positions/sensor_locations.png" width="700" height="700">
+      <img src="/Figures/Sensor_positions/sensor_locations.png" width="700" height="500">
     </p>
   </li>
   <br/>
