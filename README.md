@@ -78,7 +78,7 @@
   <p align="center">
       <img src="/Figures/usage/code_download_usage.png">
   </p>
-  <p align="justify">The following datasets are <span style="color: red">required</span> to execute the code demo:</p>
+  <p align="justify">The following datasets are <span style="color:red">required</span> to execute the code demo:</p>
   <ul>  
      <li><strong>RAW:</strong>  Contains the brain source raw data in .fif format</li>
     <br/>
@@ -86,7 +86,7 @@
     <br/>
     <li><strong>ASR:</strong>  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR)data in .fif format</li>
   </ul>
-  <p align="justify">The following datasets are <span style="color: green">optional</span> to execute the code demo and are only necessary if the data preprocessing process is to be carried out. Note that this is very computationally expensive. Hardware acceleration with an NVIDIA A100 GPU in a Google Colab (Pro) environment was performed to carry out data preprocessing</p>
+  <p align="justify">The following datasets are <span style="color:green">optional</span> to execute the code demo and are only necessary if the data preprocessing process is to be carried out. Note that this is very computationally expensive. Hardware acceleration with an NVIDIA A100 GPU in a Google Colab (Pro) environment was performed to carry out data preprocessing</p>
   <ul>  
      <li><strong>RAW:</strong>  Contains the brain source raw data in .fif format</li>
     <br/>
