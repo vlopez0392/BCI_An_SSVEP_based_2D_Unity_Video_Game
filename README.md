@@ -116,17 +116,34 @@ The reliability, credibility and quality of the data sources is justified both t
 Once again, make sure you have followed the steps in the sub-sections 6.2.1 and 6.2.2 and go into the directory where the code and required datasets are stored. In addition, make sure you have installed the required dependencies
 described in the previous subsection. 
 </p>
-<h4>6.2.4.1 Plotting PSD and time series plots from the terminal </h4>  
+<h4>6.2.4.1 Plotting PSD and EEG time series plots from the terminal </h4>  
 <p align="justify">
-Example 1: Plot a time series eeg signal for all channels of the raw brain source dataset for subject 1 and a frequency of 8Hz. Plot a single trial 
+<strong>Example 1</strong>: Plot a time series eeg signal for all channels of the raw brain source dataset for subject 1 and a frequency of 8Hz. Plot a single trial 
 
 The usage is as follows:
 
-<code align="justify">$ python code_demo.py [-plot,-model], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials] </code>
+<code align="justify">$ python code_demo.py [-plot,-model], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials -> 'time ONLY'] </code>
 
 Then, to plot the EEG time series of Example 1 we input:
 
-<code align="justify">$ python code_demo.py -plot - 1 8 -raw 1</code>
+<code align="justify">$ python code_demo.py -plot -time 1 8 -raw 1</code>
+
+The following EEG time series plot is output:
+</p>
+<p align="center">
+      <img src="/Figures/usage/example1.png">
+</p>
+<p align="justify">
+<strong>Example 2</strong>: Plot the power spectrum density (PSD) for all channels of the ASR brain source dataset for subject 1 and a frequency of 14Hz:
+
+Then, to plot the PSD plot of Example 2 we input:
+
+<code align="justify">$ python code_demo.py -plot -psd 2 14 -raw 1</code>
+
+PSD plots for all trials will be output. The following figure shows the PSD plot of the selected ASR data:
+</p>
+<p align="center">
+      <img src="/Figures/usage/example2.png">
 </p>
 
 
