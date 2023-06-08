@@ -83,7 +83,7 @@ The reliability, credibility and quality of the data sources is justified both t
   <p align="justify">In a drectory of your choice run the following command from your terminal:
   </p>
   <p align="justify">
-    <code align="justify">$ git clone https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/Code</code>
+    <code align="justify">$ git clone https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game</code>
   </p>
   <p align="justify">You can also download a zip file of the code by pressing the green <>Code button as shown  in the figure below:</p>
   <p align="center">
