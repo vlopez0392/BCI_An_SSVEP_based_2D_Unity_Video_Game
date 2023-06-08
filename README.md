@@ -86,13 +86,13 @@
     <br/>
     <li><strong>ASR:</strong>  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR)data in .fif format</li>
   </ul>
-  <p align="justify">The following datasets are <strong>optional</strong> to execute the code demo and are only necessary if the data preprocessing process is to be carried out. Note that this is very computationally expensive. Hardware acceleration with an NVIDIA A100 GPU in a Google Colab (Pro) environment was performed to carry out data preprocessing.</p>
+  <p align="justify">The following datasets are <strong>optional</strong> to execute the code and are only necessary if the data preprocessing process is to be carried out. Note that this is very computationally expensive. Hardware acceleration with an NVIDIA A100 GPU in a Google Colab (Pro) environment was performed to carry out data preprocessing. We do not recommend performing data preprocessing locally.</p>
   <ul>  
-     <li><strong>RAW:</strong>  Contains the brain source raw data in .fif format</li>
+     <li><strong>SSVEP_8Hz</strong>:  Contains the raw data in .MAT format</li>
     <br/>
-    <li><strong>FILT:</strong>  Contains the brain source bandpass (1-50 Hz) filtered data in .fif format</li>
+    <li><strong> SSVEP_14Hz</strong>: Contains the raw data in .MAT format</li>
     <br/>
-    <li><strong>ASR:</strong>  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR)data in .fif format</li>
+    <li><strong> SSVEP_28Hz</strong>: Contains the raw data in .MAT format</li>
   </ul>
   <ul> 
 
