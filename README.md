@@ -200,6 +200,7 @@ Note: DO NOT try to execute any of the cells unless you have original dataset in
 <h3>7.1.2 Visualization of raw, filtered and ASR data power spectrum plots</h3>
 <h3>7.1.3 Visualization of extracted features </h3>
 <h3>7.1.4 Performance and evaluation metrics  </h3>
+
 ---
 
 <h3 align = "center">8. References</h3>
