@@ -29,14 +29,12 @@ def main():
                     if len(args_in) == PSD_args_len and args_in[1] == '-psd':
                         ssvep_preprocessAPI.plot_Raw_PSD(raw_dict, fmin = frequency - 8, fmax= frequency+10, pick_channels=None, average= False);
                     
-                    #Plot PSD
-                    elif len(args_in) == PTIME_args_len and args_in[1] == '-time': 
-                        if args_in[5]:
+                    #Plot EEG Time series 
+                    elif (len(args_in) == PSD_args_len or len(args_in) == PTIME_args_len) and args_in[1] == '-time': 
+                        if len(args_in) == PTIME_args_len:
                             num_trials = int(args_in[5])
                         else:
                             num_trials = 1;
-                        
-                        print(num_trials);
                         if num_trials < 1 or num_trials > ssvep_preprocessAPI.num_trials:
                             print("Fatal Error: Invalid number of trials.")
                         else:
