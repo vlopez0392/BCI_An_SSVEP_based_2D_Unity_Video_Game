@@ -16,7 +16,7 @@
 
 <h3 align="center">3. Data description</h3>
 <h3>3.1 Experimental design and dataset overview </h3>
-<p align="justify">As required by the final project guidelines, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, owner, source, etc.</p>
+<p align="justify">As required by the final project guidelines, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, the owner and its source.</p>
 
 <ul>
   <li>
@@ -59,9 +59,9 @@
 The reliability, credibility and quality of the data sources is justified both theoretically through literature review and by exploring the data ourselves. Then, we make the following claims:
 </p>
 <ol>
-  <li align="justify">The reliability and credibility of the sources is provided by references [2],[3] and [5]. Part of the dataset used in this project was obtained in experiments conducted reference [3] and whose details have already been thoroughly described in the previous section. </li>
+  <li align="justify">The reliability and credibility of the sources is provided through literature review of references [2],[3] and [5]. Part of the dataset used in this project was obtained in experiments conducted reference [3] and whose details have already been thoroughly described in the previous section. </li>
   <br/>
-  <li align="justify">The reliability and credibility of the sources is provided by references [2],[3] and [5]. Part of the dataset used in this project was obtained in experiments conducted reference [3] and whose details have already been thoroughly described in the previous section. </li>
+  <li align="justify">The quality of the sources is provided by analyzing the independent components within the EEG data along with the MNE library ICA and ICA-label packages in references [6][7]  </li>
 </ol>
 
 ---
@@ -149,5 +149,10 @@ The reliability, credibility and quality of the data sources is justified both t
   <p>
   [5] Bakardjian, H., Martinez, P., Cichocki, A., Robust Multi-Command SSVEP-Based Brain-Machine Interface Without Training using Small Moving or Stationary Patterns, Japanese Patent #22385, 2008
   </p>
-
+  <p>
+  [6] https://mne.tools/stable/generated/mne.preprocessing.ICA.html
+  </p>
+  <p>
+  [7] https://mne.tools/mne-icalabel/stable/index.html
+  </p>
 <ol>
