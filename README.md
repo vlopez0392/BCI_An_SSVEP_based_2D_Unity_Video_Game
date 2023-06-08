@@ -99,7 +99,7 @@ The reliability, credibility and quality of the data sources is justified both t
   <ol>  
     <li align="justify"><strong>SSVEP_8Hz</strong>:   Contains the raw data for 8Hz frequency in .MAT format</li>
     <li align="justify"><strong> SSVEP_14Hz</strong>: Contains the raw data for 14Hz frequency in .MAT format</li>
-    <li align="justify"><strong> SSVEP_28Hz</strong>: Contains the raw data for 14Hz frequency in .MAT format</li>
+    <li align="justify"><strong> SSVEP_28Hz</strong>: Contains the raw data for 28Hz frequency in .MAT format</li>
   </ol> 
   
 <h3>6.2.2 Required directory structure </h3>  
@@ -111,6 +111,16 @@ The reliability, credibility and quality of the data sources is justified both t
 3 python files for preprocessing, model and code demo are required along with the required datasets described in the previous subsections. The shown pycache directory is not required. 
 </p>
 <h3>6.2.3 Required dependencies </h3>  
+  <ul>  
+    <li align="justify">python = 3.11.1</li>
+    <li align="justify">scipy = 1.10.1</li>
+    <li align="justify">mne   = 1.4.0</li>
+    <li align="justify">numpy=  1.23.5 (Version < 1.24.0 required for asr)</li>
+    <li align="justify">matplotlib = 3.7.1</li>
+    <li align="justify">sklearn = 1.2.2</li>
+    <li align="justify">mne_icalabel = 0.4</li>
+    <li align="justify">torch = 2.0.1</li>
+  </ul>  
 <h3>6.2.4 Code demo </h3> 
 <p align="justify">
 Once again, make sure you have followed the steps in the sub-sections 6.2.1 and 6.2.2 and go into the directory where the code and required datasets are stored. In addition, make sure you have installed the required dependencies
