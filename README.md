@@ -85,11 +85,12 @@
     <li><strong>FILT:</strong>  Contains the brain source bandpass (1-50 Hz) filtered data in .fif format</li>
     <br/>
     <li><strong>ASR:</strong>  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR)data in .fif format</li>
-    <br/>
   </ul>
   <p align="justify">The following datasets are optional to execute the code demo:</p>
   <ul> 
+
   </ul>
+  
 ---
 
 <h3 align="center">7. Results</h3>
