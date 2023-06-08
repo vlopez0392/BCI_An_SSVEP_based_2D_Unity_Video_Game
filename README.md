@@ -111,6 +111,9 @@ The reliability, credibility and quality of the data sources is justified both t
 3 python files for preprocessing, model and code demo are required along with the required datasets described in the previous subsections. The shown pycache directory is not required. 
 </p>
 <h3>6.2.3 Required dependencies </h3>  
+<p align="justify">
+The following are the required dependencies of this project. Please install them to execute the code demo. If this proves to time consuming, please check the demo video to see the code demo examples provided in the next section.
+</p>
   <ul>  
     <li align="justify">python = 3.11.1</li> 
     <li align="justify">scipy = 1.10.1</li>
@@ -138,7 +141,7 @@ Note: You can see this process in the project demo video too.
 </p>
 
 <p align="justify">
-<strong>Example 1</strong>: Plot a time series eeg signal for all channels of the raw brain source dataset for subject 1 and a frequency of 8Hz. Plot a single trial 
+<strong>Example 1</strong>: Plot a time series eeg signal for all channels of the raw brain source dataset for subject 1 and a frequency of 8Hz. Plot a single trial. 
 
 Then, to plot the EEG time series of Example 1 we input:
 
@@ -192,7 +195,7 @@ Note: DO NOT try to execute any of the cells unless you have original dataset in
     </p>
     <p align="justify">
     <strong>Discussion of results</strong>:
-    As expected, due to noisy nature of raw eeg data, even when executing ICA with 35 components, most of them where classified as other. On the other hand, after applying a simple band pass filter we observe a great improvement in the distribution quality of identified artifacts and brain sources. This pattern of improvement is also observed after applyting artifact subspace reconstruction (ASR) to or data. This verifies the claim about the reliability, quality and credibility of our data sources as expressed in sub-section 3.2.
+    As expected, due to noisy nature of raw eeg data, even when executing ICA with 35 components, most of them where classified as other. On the other hand, after applying a simple band pass filter we observe a great improvement in the distribution quality of identified artifacts and brain sources. This pattern of improvement is also observed after applyting artifact subspace reconstruction (ASR) to our data. This verifies the claim about the reliability, quality and credibility of our data sources as expressed in sub-section 3.2.
     </p>
 <h3>7.1.2 Visualization of raw, filtered and ASR data power spectrum plots<h3>
 
