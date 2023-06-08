@@ -180,7 +180,9 @@ Note: DO NOT try to execute any of the cells unless you have original dataset in
       <img src="/Figures/ICA_label_averages/28Hz_ICA_label_averages.png">
     </p>
     <p align="justify">
-    As expected, raw data 
+    <strong>Discussion of results</strong>:
+
+    As expected, due to noisy nature of raw eeg data, even when executing ICA with 35 components, most of them where classified as other. On the other hand, after applying a simple band pass filter we observe a great improvement in the distribution quality of identified artifacts and brain sources. This pattern of improvement is also observed after applyting artifact subspace reconstruction (ASR) to or data. This verifies the claim about the reliability, quality and credibility of our data sources as expressed in sub-section 3.2.
     </p>
 <h3>7.1.2 Visualization of raw, filtered and ASR data power spectrum plots<h3>
 
