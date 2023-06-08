@@ -100,10 +100,8 @@ The reliability, credibility and quality of the data sources is justified both t
     <li align="justify"><strong>SSVEP_8Hz</strong>:   Contains the raw data for 8Hz frequency in .MAT format</li>
     <li align="justify"><strong> SSVEP_14Hz</strong>: Contains the raw data for 14Hz frequency in .MAT format</li>
     <li align="justify"><strong> SSVEP_28Hz</strong>: Contains the raw data for 14Hz frequency in .MAT format</li>
-  </ul>
   </ol> 
-
-  </ul>
+  
 <h3>6.2.2 Required directory structure </h3>  
  <p align="justify">Once the repository has been cloned and the datasets have been downloaded to the directory of your choice, some housekeeping must be done in your directory to ensure correct code execution. The following figure shows the required directory structure (both GUI and terminal) to execute the code demo</p>
 <p align="center">
