@@ -122,6 +122,8 @@ described in the previous subsection.
 The usage is as follows:
 
 <code align="justify">$ python code_demo.py [-plot,-model], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials -> 'time ONLY'] </code>
+
+Note: You can see this process in the project demo video too.
 </p>
 
 <p align="justify">
@@ -143,13 +145,18 @@ Then, to plot the PSD plot of Example 2 we input:
 
 <code align="justify">$ python code_demo.py -plot -psd 1 14 -raw 1</code>
 
-PSD plots for all trials will be outpue. The following figure shows the PSD plot of the selected ASR data for trial 1:
+PSD plots for all trials will be output. The following figure shows the PSD plot of the selected ASR data for trial 1:
 </p>
 <p align="center">
       <img src="/Figures/usage/example2.png">
 </p>
 
+<h4>6.2.4.3 Google Colab notebook - Data preprocessing (visualization only) </h4> 
+<p align="justify">
+You can explore the data preprocessing process in the Google Colab notebook here: <a href ="https://drive.google.com/drive/folders/1SQRlH2BddoyUDPOVLezxzRE0DcMiUyG1">Notebook</a>
 
+Note: DO NOT try to execute any of the cells unless you have original dataset in the Colab File explorer. Otherwise, the original cell's output will be deleted.
+</p>
 ---
 
 <h3 align="center">7. Results</h3>
@@ -170,6 +177,9 @@ PSD plots for all trials will be outpue. The following figure shows the PSD plot
     <h4 align = "center"><ins>SSVEP 28 Hz frequency - 4 subjects with 5 trials each</ins></h4>
     <p align="center">
       <img src="/Figures/ICA_label_averages/28Hz_ICA_label_averages.png">
+    </p>
+    <p align="justify">
+    As expected, raw data 
     </p>
 <h3>7.1.2 Visualization of raw, filtered and ASR data power spectrum plots<h3>
 
