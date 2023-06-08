@@ -1,12 +1,16 @@
 import ssvep_preprocessing_API as ssvep_preprocessAPI;
 import numpy as np;
+import sklearn
 from sklearn import svm;
 import matplotlib.pyplot as plt
 from sklearn.svm import SVC
 from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+import sklearn.metrics as metrics
 
 ### Designed by Victor D. Lopez :)
 
+### Some required parameters
 labels = [8,14,28];
 n_subjects = ssvep_preprocessAPI.num_subjects;
 n_trials   = ssvep_preprocessAPI.num_trials;
@@ -57,7 +61,7 @@ def load_label_plot_training_data(dataset, channels, frequency, fmin, fmax, plot
     #Determine shape of training data:
     train_data_shape = get_train_shape(dataset,f_min,f_max,channels);
     train_data = np.empty(train_data_shape);
-    label_data = np.zeros(shape = (train_data_shape[0],1)) + frequency;
+    label_data = np.zeros(shape = (train_data_shape[0],)) + frequency;
     idx = 0;
     for raw_dict in dataset:
         for key, raw_inst in raw_dict.items():
@@ -86,9 +90,23 @@ def make_training_label_dataset(target, channels):
 
    return [train_dataset,label_dataset];
 
-def learning_pipeline(train_label_dataset):
+def SVM_pipeline(train_label_dataset):
     X = train_label_dataset[0]; ## Training data
     y = train_label_dataset[1]; ## Labels for each training sample
     
+    ##Create train and test datasets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
 
+    ##Scale the data 
+    scaler = StandardScaler();
+    X_train_scaled = scaler.fit_transform(X_train);
+    X_test_scaled  = scaler.transform(X_test);
 
+    ##Instantiate SVC model 
+    svm = SVC();
+    svm.fit(X_train_scaled,y_train);
+
+    ##Measure model's accuracy
+    y_pred = svm.predict(X_test_scaled);
+    print(metrics.classification_report(y_test, y_pred))
+    
