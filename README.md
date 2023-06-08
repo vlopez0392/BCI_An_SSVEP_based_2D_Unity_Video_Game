@@ -80,11 +80,11 @@
   </p>
   <p align="justify">The following datasets are required to execute the code demo:</p>
   <ul>  
-     <li><ins>RAW:</ins>  Contains the brain source raw data in .fif format</li>
+     <li><strong>RAW:</strong>  Contains the brain source raw data in .fif format</li>
     <br/>
-    <li><ins>FILT:</ins>  Contains the brain source bandpass (1-50 Hz) filtered data in .fif format</li>
+    <li><strong>FILT:</strong>  Contains the brain source bandpass (1-50 Hz) filtered data in .fif format</li>
     <br/>
-    <li><ins>ASR:</ins>  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR)data in .fif format</li>
+    <li><strong>ASR:</strong>  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR)data in .fif format</li>
     <br/>
   </ul>
   <p align="justify">The following datasets are optional to execute the code demo:</p>
