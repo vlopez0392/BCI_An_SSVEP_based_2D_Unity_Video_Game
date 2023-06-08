@@ -15,6 +15,7 @@
 ---
 
 <h3 align="center">3. Data description</h3>
+<h3>3.1 Experimental design and dataset overview </h3>
 <p align="justify">As required by the final project guidelines, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, owner, source, etc.</p>
 
 <ul>
@@ -53,6 +54,15 @@
     </p>
   </li>
 </ul>
+<h3>3.2 Data quality Evaluation</h3>
+<p align="justify">
+The reliability, credibility and quality of the data sources is justified both theoretically through literature review and by exploring the data ourselves. Then, we make the following claims:
+</p>
+<ol>
+  <li align="justify">The reliability and credibility of the sources is provided by references [2],[3] and [5]. Part of the dataset used in this project was obtained in experiments conducted reference [3] and whose details have already been thoroughly described in the previous section. </li>
+  <br/>
+  <li align="justify">The reliability and credibility of the sources is provided by references [2],[3] and [5]. Part of the dataset used in this project was obtained in experiments conducted reference [3] and whose details have already been thoroughly described in the previous section. </li>
+</ol>
 
 ---
 
@@ -80,21 +90,23 @@
       <img src="/Figures/usage/code_download_usage.png">
   </p>
   <p align="justify">The following datasets are <strong>required</strong> to execute the code demo:<a href = "https://drive.google.com/drive/folders/1RRNWbd4Qa-aQntIK8nYdbixSbBvO-wfO"> Download required datasets here</a>.</p>
-  <ul>  
+  <ol>  
      <li align="justify"><strong>RAW:</strong>  Contains the brain source raw data in .fif format</li>
     <li align="justify"><strong>FILT:</strong>  Contains the brain source bandpass (1-50 Hz) filtered data in .fif format</li>
     <li align="justify"><strong>ASR:</strong>  Contains the brain source bandpass (1-50 Hz) filtered and artifact subspace reconstructed (ASR) data in .fif format</li>
-  </ul>
+  </ol>
   <p align="justify">The following datasets [2] are <strong>optional</strong> and are for developing purposes only. No code demo will be provided for data preprocessing because this process is very computationally expensive Hardware acceleration with an NVIDIA A100 GPU in a Google Colab (Pro) environment was performed to carry out data preprocessing. Total processing time was around 1.5 hours. We do not recommend performing data preprocessing locally. <a href = "https://drive.google.com/drive/folders/1tIW4ZFdN1LiKlRQBDkMeIuwmwb30VmV_?usp=sharing"> Download optional datasets here</a>.</p>
-  <ul>  
+  <ol>  
     <li align="justify"><strong>SSVEP_8Hz</strong>:   Contains the raw data for 8Hz frequency in .MAT format</li>
     <li align="justify"><strong> SSVEP_14Hz</strong>: Contains the raw data for 14Hz frequency in .MAT format</li>
     <li align="justify"><strong> SSVEP_28Hz</strong>: Contains the raw data for 14Hz frequency in .MAT format</li>
   </ul>
-  <ul> 
+  </ol> 
 
   </ul>
-<h4>6.1.2 </h4>  
+<h4>6.1.2 Required directory structure </h4>  
+ <p align="justify"> </p>
+
 
 ---
 
@@ -134,4 +146,8 @@
   <p>
   [4] https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/
   </p>
+  <p>
+  [5] Bakardjian, H., Martinez, P., Cichocki, A., Robust Multi-Command SSVEP-Based Brain-Machine Interface Without Training using Small Moving or Stationary Patterns, Japanese Patent #22385, 2008
+  </p>
+
 <ol>
