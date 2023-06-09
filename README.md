@@ -87,10 +87,17 @@ The model framework and architecture of our project is based on a typical SSVEP-
   We describe them briefly below. 
   </p>
   <p align="justify">
-    <strong>Data preprocessing:</strong> From the three signal processing techniques above, data preprocessing is the most time consuming and computationally expensive stage to carry out. As required by the final project guidelines, the following data preprocessing pipeline (shown in green in the figure) was implemented: 
+    1.<strong>Data preprocessing:</strong> From the three signal processing techniques above, data preprocessing is the most time consuming and computationally expensive stage to carry out. As required by the final project guidelines, the following data preprocessing pipeline (shown in green in the figure) was implemented: 
   </p>
   <p align="center">
-    <img src="/Figures/usage/pipe.jpeg" style="width: 75%;">
+    <img src="/Figures/usage/pipe.jpeg" style="width: 85%;">
+  </p>
+   <p align="justify">
+  We have designed a preprocessing API (See section 5.1) to perform the preprocessing stages. It's purpose it's to effectively implement the stages shown in the green rectangle in the figure above by working in conjunction with the Python MNE software library for EEG and MEG data exploration[9] and handling the raw data from the dataset described in the previous section. Bandpass filtering is applied through the MNE library to eliminate the influence of frequencies above 50 Hz (line noise). Artifact subspace reconstruction on the other hand, reduces corrects artifacts such that the resulting data better represent the
+  brain EEG signals. The ASR library used in this project is based on reference[8]. Finally ICA and ICA-label allow for the reconstruction of the brain-source dataset (final step) by identifying the ICs corresponding to brain sources and ICA-label allows us to identify which ICs correspond to which kinds of artifacts.  
+  </p>
+    <p align="justify">
+    2.<strong>Feature extraction</strong> Once our data has been reconstructed
   </p>
 
 ---
