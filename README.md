@@ -175,9 +175,12 @@ described in the previous subsection.
 <h4>6.2.4.1 Plotting PSD and EEG time series plots from the terminal </h4> 
 <p align="justify">
 The usage is as follows:
+</p>
 
-<code align="justify">$ python code_demo.py [-plot], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials('-time')] </code>
+```
+$ python code_demo.py [-plot], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials('-time')] ```
 
+<p align="justify">
 Note: You can see this process in the project demo video too.
 </p>
 
