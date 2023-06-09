@@ -205,15 +205,15 @@ However, we can observe the increase in power density as we move through the sta
 
 Below, we show the PSD plots for subject 1, trial 1 at a SSVEP frequency of 8Hz:
 </p>
-<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Raw PSD plot</ins></h4>
+<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Raw PSD</ins></h4>
 <p align="center">
   <img src="/Figures/psd_plots/raw.png">
 </p>
-<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Band pass filtered PSD plot</ins></h4>
+<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Band pass filtered PSD</ins></h4>
 <p align="center">
   <img src="/Figures/psd_plots/filter.png">
 </p>
-<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - ASR PSD plot</ins></h4>
+<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - ASR PSD</ins></h4>
 <p align="center">
   <img src="/Figures/psd_plots/asr.png">
 </p>
