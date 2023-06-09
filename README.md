@@ -213,7 +213,9 @@ The following plots show the influence of filtering the raw data through various
 <h3>7.2 Performance and evaluation metrics results</h3>
 <h3>7.2.1 Visualization of IC brain-source PSD extracted features from dataset</h3>
 <p align="justify">
-In the figures below, we have extracted PSD features from 8-channels as described in the model framework section. Specifically, the figures show the brain-source processed data up to the asr preprocessing stage, that is, the cleanest data in our dataset. In the left figure, we have the features corresponding to subject 1 (all trials) and in the right figure we have the features corresponding to subject 2 (all trials) at a target SSVEP frequency of 8Hz.
+In the figures below, we have extracted PSD features from 8-channels in the occipital region of the brain as described in the model framework section. The figures show the brain-source processed data up to the ASR preprocessing stage, that is, the cleanest data in our dataset. 
+
+In the left figure, we have the features corresponding to subject 1 (all trials) and in the figure to the right we have the features corresponding to subject 2 (all trials), both figures at a target SSVEP frequency of 8Hz. In some of them, we can observe the characteristic sharp increase in power peaks at the target frequency and their harmonics..
 </p>
 <p align="center">
   <img src="/Figures/features/features.png">
