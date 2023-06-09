@@ -326,7 +326,13 @@ The following figure is frame of the video game we developed in Unity:
 <p align="center">
   <img src="/Figures/game/game_maze.png">
 </p>
+<p align="justify">
+Each of the flickering lights flicker at the SSVEP frequencies in our project. The user can then control the ball by fixing their sight in the desired direction flicker. The light on top of the screen allows for up and down movements since the user will be provided a button for the program to reverse the direction whenever the button is pressed. This design is due to the fact that we only have three SSVEP frequencies. 
+</p>
 
+<p align="justify">
+<strong>Integration and Future Work</strong>: Classifier-Game integration was not performed in this project since concepts beyond the scope of the project were required to succesfully implement a simulated BCI video game. For instance, Reinforcement Learning techniques would be required for the program to correctly select the most probable light the user would fix their sight in. Then, a simulated EEG signal corresponding to the target frequency would need to be simulated with signal processing techniques. Thus, researchers interested in these topics may continue our work in the future. 
+</p>
 ---
 
 <h2 align = "center">8. References</h2>
