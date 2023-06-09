@@ -224,6 +224,7 @@ In the figures below, we have extracted PSD features from 8-channels in the occi
 <p align="justify">
 In the left figure, we have the features corresponding to subject 1 (all trials) and in the figure to the right we have the features corresponding to subject 2 (all trials), both figures at a target SSVEP frequency of 8Hz. In some of them, we can observe the characteristic sharp increase in power peaks at the target frequency and their harmonics.
 </p>
+<h4><ins>Subject 1</ins>          <ins>Subject 2</ins></h4> 
 <p align="center">
   <img src="/Figures/features/features.png">
 </p>
