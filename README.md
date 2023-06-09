@@ -76,16 +76,22 @@ The model framework and architecture of our project is based on a typical SSVEP-
     <img src="/Figures/usage/architecture.png" style="width: 75%;" >
   </p>
   <p align="justify">
-  Since our data is extracted from the dataset described in section 3.1, this project focuses minaly on the following three components:
+  Since our data is extracted from the dataset described in section 3.1, this project focuses mainly on the following three components:
   </p>
-  <ul>
+  <ol>
     <li align="justify">Data preprocessing</li>
     <li align="justify">Feature Extraction</li>
     <li align="justify">Feature Classification</li>
-  </ul>
-  <br/>
-
-
+  </ol>
+  <p align="justify">
+  We describe them briefly below. 
+  </p>
+  <p align="justify">
+    <strong>Data preprocessing:</strong> From the three signal processing techniques above, data preprocessing is the most time consuming and computationally expensive stage to carry out. As required by the final project guidelines, the following data preprocessing pipeline (shown in green in the figure) was implemented: 
+  </p>
+  <p align="center">
+    <img src="/Figures/usage/pipeline.png" style="width: 75%;" >
+  </p>
 ---
 
 <h2 align="center">5. Validation</h2>
