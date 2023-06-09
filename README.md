@@ -72,7 +72,10 @@ The reliability, credibility and quality of the data sources is justified both t
 From the software side, we validate the effectiveness and reliability of our BCI system by relying on many popular python libraries such as numpy, scikit-learn or the MNE library to explore, visualize, and analyze human neurophysiological EEG data [9]. The complete list of dependencies this project relies on is shown in section 6 Usage.
 </p>
 <p align="justify">
-Due to the large size of our dataset, we have a designed a data preprocessing API (See the <a href ="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/blob/main/Code/ssvep_preprocessing_API.py">ssvep_preprocessing_API.py<a> module in the Code directory) to parse our data into the appropriate MNE data structures, perform the necessary IO to load the required datasets, save the clean datasets to the appropriate directories, and finally to plot the results shown in section 7 Results. This API is created based on good software practices such as DRY and KISS among others. A demo video is provided in Section 9 to showcase the API's performance. 
+Due to the large size of our dataset, we have a designed a data preprocessing API (See the ssvep_preprocessing_API.py module in the Code directory) to parse our data into the appropriate MNE data structures, perform the necessary IO to load the required datasets, save the clean datasets to the appropriate directories, and finally to plot the results shown in section 7 Results. This API is created based on good software practices such as DRY and KISS among others. A demo video is provided in Section 9 to showcase the API's performance. 
+</p>
+<p align="justify">
+The preprocessing API can be found here: <a href ="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/blob/main/Code/ssvep_preprocessing_API.py">ssvep_preprocessing_API</a>
 </p>
 
 ---
