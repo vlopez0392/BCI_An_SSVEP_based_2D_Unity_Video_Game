@@ -274,7 +274,7 @@ In the figures below, we have extracted PSD features from 8-channels in the occi
 <p align="justify">
 In the left figure, we have the features corresponding to subject 1 (all trials) and in the figure to the right we have the features corresponding to subject 2 (all trials), both figures at a target SSVEP frequency of 8Hz. In some of them, we can observe the characteristic sharp increase in power peaks at the target frequency and their harmonics.
 </p>
-<h4 align = "center"><ins>Subject 1 (All trials 8Hz) PSD features </ins>------------------<ins>Subject 2 (All trials 8Hz) PSD features</ins></h4> 
+<h3 align = "center"><ins>Subject 1, 2 (All trials 8Hz) PSD features </ins></h3> 
 <p align="center">
   <img src="/Figures/features/features.png">
 </p>
@@ -284,7 +284,11 @@ The figures show below correspond to the SVM-classifier results when trained wit
 </p>
 
 <p align="justify"> 
-Each of the samples had 313 data points corresponding to the power spectrum density computed between frequencies of 1 and 40 Hz. The number of samples correspond to product of the number of subjects = 4, number of trials = 5 and number of target channels = 8. Thus, per SSVEP frequency, there were a total of 160 samples for which our extracted dataset consisted of 480 samples with 313 features each. 
+Each of the samples had 313 data points corresponding to the power spectrum density computed between frequencies of 1 and 40 Hz. This method to extract data features is based on [10].The number of samples correspond to product of the number of subjects = 4, number of trials = 5 and number of target channels = 8. Thus, per SSVEP frequency, there were a total of 160 samples for which our extracted dataset consisted of 480 samples with 313 features each.
+</p>
+
+<p align="justify"> 
+Classification is performed using the sklearn.svm SVC python library found in [12] which is based in the original NTU-based implementation by Chih-Chung Chang and Chih-Jen Lin [13].
 </p>
 
 <h3 align = "center"><ins> Raw brain-source ICs classification results </ins></h3>
@@ -325,5 +329,14 @@ Each of the samples had 313 data points corresponding to the power spectrum dens
   </p>
   <p>
   [9] https://mne.tools/stable/index.html
+  </p>
+  <p>
+  [10] E. Kalunga, K. Djouani, Y. Hamam, S. Chevallier and E. Monacelli, "SSVEP enhancement based on Canonical Correlation Analysis to improve BCI performances," 2013 Africon, Pointe aux Piments, Mauritius, 2013, pp. 1-5, doi: 10.1109/AFRCON.2013.6757776.
+  </p>
+  <p>
+  [11] https://www.csie.ntu.edu.tw/~cjlin/libsvm/
+  </p>
+  <p>
+  [12] https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
   </p>
 <ol>
