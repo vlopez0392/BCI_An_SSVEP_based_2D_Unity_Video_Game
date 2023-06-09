@@ -319,6 +319,13 @@ Classification is performed using the sklearn.svm SVC python library found in [1
 <strong>Discussion of results</strong>:
 As expected, we observe an increase in the classification accuracy (3%) for the brain-source ASR dataset when compared with the brain-source RAW dataset which validates the the data preprocessing step of our project. After ICA labeling, the brain-source ICs for the raw dataset are mostly none, for which the brain-source RAW dataset is reconstructed from the other categories. On the other hand, the brain-source ICs for the ASR dataset are significantly higher. Thus, we conclude that the ASR dataset to better represent the the brain-source signals from the subjects in the experiment. An increase of 3% in accuracy is not negligible for BCI intended applications. 
 </p>
+<h3>7.3 Developed Video game screenshots, Integration discussion and Future Work</h3>
+<p align="justify">
+The following figure is frame of the video game we developed in Unity: 
+</p>
+<p align="center">
+  <img src="/Figures/game/game_maze.png">
+</p>
 
 ---
 
