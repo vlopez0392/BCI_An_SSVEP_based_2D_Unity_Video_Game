@@ -217,8 +217,9 @@ PSD plots for all trials will be output. The following figure shows the PSD plot
 <p align="center">
       <img src="/Figures/usage/example2.png">
 </p>
+<h4>6.2.4.3 Plotting extracted features and classifier output figures </h4> 
 
-<h4>6.2.4.3 Google Colab notebook - Data preprocessing (visualization only) </h4> 
+<h4>6.2.4.4 Google Colab notebook - Data preprocessing (visualization only) </h4> 
 <p align="justify">
 You can explore the data preprocessing process in the Google Colab notebook here: <a href ="https://drive.google.com/drive/folders/1SQRlH2BddoyUDPOVLezxzRE0DcMiUyG1">Notebook</a>
 
