@@ -1,12 +1,9 @@
-# BCI_An_SSVEP_based_2D_Unity_Video_Game
-<h1>Final Project: Spring 2023 Brain Computer Interfaces: Fundamentals and Applications, NTHU, Taiwan</h2>
+<h1>Spring 2023 Brain Computer Interfaces: Fundamentals and Applications Final Project, NTHU, Taiwan</h2>
 
 <h2 align="center">1. Project members</h2>
-<ul>
-  <li>巫冠緯           - 111065543  </li>
-  <li>Wu, Shao-Hung	  -	111062640  </li>
-  <li>Victor D. Lopez - 110062426  </li>
-</ul>
+<h3>巫冠緯           - 111065543  </h3>
+<h3>Wu, Shao-Hung	  -	111062640  </h3>
+<h3>Victor D. Lopez - 110062426  </h3>
 
 ---
 
@@ -219,7 +216,7 @@ The following plots show the influence of filtering the raw data through various
 
 ---
 
-<h3 align = "center">8. References</h3>
+<h2 align = "center">8. References</h2>
   <p>
   [1] http://www.biosemi.com/headcap.htm 
   </p>
