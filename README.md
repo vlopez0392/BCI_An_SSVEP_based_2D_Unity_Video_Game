@@ -199,7 +199,7 @@ Note: DO NOT try to execute any of the cells unless you have original dataset in
     </p>
 <h3>7.1.2 Visualization of raw, filtered and ASR data power spectrum density (PSD) plots</h3>
 <p align="justify"> 
-The following plots show the influence of filtering the raw data through various means, either by a passband filter or by ASR. Notice that thes PSD plots correspond to the data before performing ICA. In them, we can observe the increase in power density as we move through the stages of the data preprocessing pipeline. Below, we show the PSD plots for subject 1, trial 1 at a SSVEP frequency of 8Hz:
+The following plots show the influence of filtering the raw data through various means, either by a passband filter or by ASR. Notice that the PSD plots correspond to the data before performing ICA. In them, we can observe the increase in power density at the target frequencies and their harmonics as we move through the stages of the data preprocessing pipeline. Below, we show the PSD plots for subject 1, trial 1 at a SSVEP frequency of 8Hz:
 </p>
 <h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Raw PSD</ins></h4>
 <p align="center">
