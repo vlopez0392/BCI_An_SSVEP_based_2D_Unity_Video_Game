@@ -104,7 +104,11 @@ Note 2: A demo video is provided in section 6 Usage to showcase the API's perfor
 <h2>5.2 Quantitative and qualitative validation methods</h2>
 <p align="justify">Quantitative and qualitative methods were also explored to validate the effectiveness and reliability of our BCI system. We made many qualitatve judgements based on both EEG time-series and PSD spectrum plots based on the literature and the dataset itself. For instance, based on experiment number 3 conducted in [3] by the authors of the dataset, subject 1 was prone to have excellent SSVEP responses at a frequency of 8 Hz. This was verified and validated by our experiments and thus we make use of this subject's PSD plot in this report.</p>
 
-<p align="justify">In addition, we make a quantitative analysis of the average number and type artifacts found by the MNE ICAlabel package in section 7 Results. We conclude that as the original dataset goes through each of the stages of the data preprocessing pipeline, the number of brain sources tends to increase as well as observing a better distribution of the type and average number of other components.
+<p align="justify">In addition, we make a quantitative analysis of the average number and type artifacts found by the MNE ICAlabel package in section 7 Results. We conclude that as the original dataset goes through each of the stages of the data preprocessing pipeline, the number of brain sources tends to increase as well as observing a better distribution of the type and average number of other artifacts.
+</p>
+
+<p align="justify">
+Finally, we make use of Machine Learning techniques such as support vector machines (SVMs) and random forests (RF) to implement a simple SSVEP classifier whose output would serve as an input to the video game we developed. Evaluation metrics such as accuracy, precision and recall and figures such as confusion matrices are shown in section 7 results. These results help to futher validate the effectiveness and realibility of out BCI system.
 </p>
 
 ---
