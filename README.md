@@ -75,6 +75,25 @@ From the software side, we validate the effectiveness and reliability of our BCI
 Due to the large size of our dataset, we have a designed a data preprocessing API (See the ssvep_preprocessing_API.py module in the Code directory) to parse our data into the appropriate MNE data structures, perform the necessary IO to load the required datasets, save the clean datasets to the appropriate directories, and finally to plot the results shown in section 7 Results. This API is created based on good software practices such as DRY and KISS among others. 
 </p>
 <p align="justify">
+For instance, consider we want to reconstruct brain source EEG data from the ICs composed by ICA. The following code snippet achieves this:
+
+<code> 
+### Reconstruct brain EEG data from ICs - This is the clean data that will be fed in to the classifier
+def reconstruct_eeg_data_ICA(raw_dict , ica_dict, includeOther = True):
+    brain_source_data = {};
+    include = []
+    for key,rawArray in raw_dict.items():
+        include = ica_dict[key].labels_['brain'];
+        if(includeOther):
+            include.extend(ica_dict[key].labels_['other']);
+        brain_source_data[key] = ica_dict[key].apply(raw_dict[key], include = include);
+    
+    return brain_source_data;
+</code>
+</p>
+
+
+<p align="justify">
 Note 1: The preprocessing API can be found here: <a href ="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/blob/main/Code/ssvep_preprocessing_API.py">SSVEP_preprocessing_API</a>
 
 Note 2: A demo video is provided in section 6 Usage to showcase the API's performance and quality.
