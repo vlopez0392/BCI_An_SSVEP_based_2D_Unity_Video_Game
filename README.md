@@ -215,10 +215,11 @@ The following plots show the influence of filtering the raw data through various
   <img src="/Figures/psd_plots/asr.png">
 </p>
 <br/>
-<h3>7.1.3 Visualization of IC brain-source PSD extracted features from dataset</h3>
+<h3>7.1 Performance and evaluation metrics results</h3>
+<h3>7.2.1 Visualization of IC brain-source PSD extracted features from dataset</h3>
 
 <br/>
-<h3>7.1.4 Performance and evaluation metrics  </h3>
+<h3>7.2.2 Evaluation metrics considered</h3>
 
 ---
 
