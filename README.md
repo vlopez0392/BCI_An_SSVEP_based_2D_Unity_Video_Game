@@ -75,6 +75,15 @@ The model framework and architecture of our project is based on a typical SSVEP-
   <p align="center">
     <img src="/Figures/usage/architecture.png" style="width: 75%;" >
   </p>
+  <p align="justify">
+  Since our data is extracted from the dataset described in section 3.1, this project focuses minaly on the following three components:
+  </p>
+  <ul>
+    <li align="justify">Data preprocessing</li>
+    <li align="justify">Feature Extraction</li>
+    <li align="justify">Feature Classification</li>
+  </ul>
+  <br/>
 
 
 ---
