@@ -68,6 +68,11 @@ The reliability, credibility and quality of the data sources is justified both t
 ---
 
 <h2 align="center">5. Validation</h2>
+<p align="justify">
+From the software side, we validate the effectiveness and reliability of our BCI system by relying on many popular python libraries such as numpy, scikit-learn or the MNE library to explore, visualize, and analyze human neurophysiological EEG data [9]. The complete list of dependencies this project relies on is shown in section 6 Usage.
+
+Due to the large size of our dataset, we have a designed a data preprocessing API (See the ssvep_preprocessing_API.py in the Code directory) to parse our data into the appropriate MNE data structures, perform the necessary IO to load the required datasets, save the clean datasets to the appropriate directories, and finally to plot the results shown in section 7 Results.
+</p>
 
 ---
 
@@ -216,13 +221,12 @@ The following plots show the influence of filtering the raw data through various
 In the figures below, we have extracted PSD features from 8-channels in the occipital region of the brain as described in the model framework section. The figures show the brain-source processed data up to the ASR preprocessing stage, that is, the cleanest data in our dataset. 
 </p>
 <p align="justify">
-In the left figure, we have the features corresponding to subject 1 (all trials) and in the figure to the right we have the features corresponding to subject 2 (all trials), both figures at a target SSVEP frequency of 8Hz. In some of them, we can observe the characteristic sharp increase in power peaks at the target frequency and their harmonics..
+In the left figure, we have the features corresponding to subject 1 (all trials) and in the figure to the right we have the features corresponding to subject 2 (all trials), both figures at a target SSVEP frequency of 8Hz. In some of them, we can observe the characteristic sharp increase in power peaks at the target frequency and their harmonics.
 </p>
 <p align="center">
   <img src="/Figures/features/features.png">
 </p>
 <h3>7.2.2 Evaluation metrics considered</h3>
-
 
 ---
 
@@ -250,5 +254,8 @@ In the left figure, we have the features corresponding to subject 1 (all trials)
   </p>
   <p>
   [8] https://github.com/DiGyt/asrpy
+  </p>
+  <p>
+  [9] https://mne.tools/stable/index.html
   </p>
 <ol>
