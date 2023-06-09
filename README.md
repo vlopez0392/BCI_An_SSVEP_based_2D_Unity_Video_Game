@@ -211,7 +211,7 @@ Below, we show the PSD plots for subject 1, trial 1 at a SSVEP frequency of 8Hz:
 </p>
 <h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Band pass filtered PSD plot</ins></h4>
 <p align="center">
-  <img src="/Figures/psd_plots/filt.png">
+  <img src="/Figures/psd_plots/filter.png">
 </p>
 <h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - ASR PSD plot</ins></h4>
 <p align="center">
