@@ -90,7 +90,7 @@ The model framework and architecture of our project is based on a typical SSVEP-
     <strong>Data preprocessing:</strong> From the three signal processing techniques above, data preprocessing is the most time consuming and computationally expensive stage to carry out. As required by the final project guidelines, the following data preprocessing pipeline (shown in green in the figure) was implemented: 
   </p>
   <p align="center">
-    <img src="/Figures/usage/pipeline.png" style="width: 75%;" >
+    <img src="/Figures/usage/pipeline.png" >
   </p>
 ---
 
