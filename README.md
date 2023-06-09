@@ -209,7 +209,7 @@ The following plots show the influence of filtering the raw data through various
 <p align="center">
   <img src="/Figures/psd_plots/filter.png">
 </p>
-<h3> align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - ASR PSD</ins></h3>
+<h3 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - ASR PSD</ins></h3>
 <p align="center">
   <img src="/Figures/psd_plots/asr.png">
 </p>
