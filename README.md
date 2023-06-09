@@ -132,7 +132,7 @@ described in the previous subsection.
 <p align="justify">
 The usage is as follows:
 
-<code align="justify">$ python code_demo.py [-plot,-model], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials -> 'time ONLY'] </code>
+<code align="justify">$ python code_demo.py [-plot], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials('-time')] </code>
 
 Note: You can see this process in the project demo video too.
 </p>
