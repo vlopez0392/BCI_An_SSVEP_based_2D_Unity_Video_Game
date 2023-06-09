@@ -334,6 +334,10 @@ Each of the flickering lights flicker at the SSVEP frequencies in our project. T
 <strong>Integration and Future Work</strong>: Classifier-Game integration was not performed in this project since concepts beyond the scope of the project were required to succesfully implement a simulated BCI video game. For instance, Reinforcement Learning techniques would be required for the program to correctly select the most probable light the user would fix their sight in. Then, a simulated EEG signal corresponding to the target frequency would need to be simulated with signal processing techniques. Thus, researchers interested in these topics may continue our work in the future. 
 </p>
 
+<p align="justify">
+The game code is found here: <a href ="https://drive.google.com/drive/folders/17-8GTmWANoxvA8LXoMzcVqJH5AR8Rz5F?usp=drive_link">Game code</a>
+</p>
+
 ---
 
 <h2 align = "center">8. References</h2>
