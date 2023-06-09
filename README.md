@@ -97,11 +97,14 @@ The model framework and architecture of our project is based on a typical SSVEP-
   </p>
   <p align="justify">
   Artifact subspace reconstruction on the other hand, reduces corrects artifacts such that the resulting data better represent the
-  brain EEG signals. The ASR library used in this project is based on reference[8]. Finally ICA and ICA-label allow for the reconstruction of the brain-source dataset (final step) by identifying the ICs corresponding to brain sources and ICA-label allows us to identify which ICs correspond to which kinds of artifacts.  
+  brain EEG signals. The ASR library used in this project is based on reference [8]. Finally ICA and ICA-label allow for the reconstruction of the brain-source dataset (final step) by identifying the ICs corresponding to brain sources and ICA-label allows us to identify the kind of artifacts from every IC. Relevant results are provided in Section 7.
   </p>
   <p align="justify">
- <strong> 2. Feature extraction</strong> Once our data has been reconstructed, we may extract features of interest. In our case, we are interested in brain-source EEG signals coming from the visual cortex or the occipital lobe of the brain. From the 10-20 system, the O1 and O2 electrodes are placed in this region of the brain, thus we extract out features as power spectrum density data points from 8 channels from the Biosemi montage which roughly correspond to the O1 and O2 electrodes mentioned prevoiusly. This feature extraction process is similar to the one conducted in reference [13].
-  </p>
+ <strong> 2. Feature extraction</strong> Once our data has been reconstructed, we may extract features of interest. In our case, we are interested in brain-source EEG signals coming from the visual cortex or the occipital lobe of the brain. From the 10-20 system, the O1 and O2 electrodes are placed in this region of the brain, thus we extract features as power spectrum density data points from 8 channels from the 128-channel Biosemi montage which roughly correspond to the O1 and O2 electrodes mentioned previously. This feature extraction process is similar to the one conducted in reference [13]. Relevant results are provided in Section 7.
+ </p>
+ <p align="justify">
+<strong> 3. Feature classification </strong> Finally, we implement some machine learning models such as support vector machines or SVMs to classify each feature according to their specific SSVEP frequency. We compare the performance of the classifier on several evaluation metrics both on raw and ASR corrected brain-source datasets to validate both the data preprocessing quality and the effectiveness and reliability of our BCI system. Relevant results are provided in Section 7.
+</p>
 
 ---
 
