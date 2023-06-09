@@ -178,7 +178,8 @@ The usage is as follows:
 </p>
 
 ```
-$ python code_demo.py [-plot], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials('-time')] ```
+$ python code_demo.py [-plot], [-time,-psd],[subject],[frequency],[-raw,-filt,-asr],[num_trials('-time')] 
+```
 
 <p align="justify">
 Note: You can see this process in the project demo video too.
