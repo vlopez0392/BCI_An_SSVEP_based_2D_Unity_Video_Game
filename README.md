@@ -80,7 +80,7 @@ The reliability, credibility and quality of the data sources is justified both t
 
   <h3>6.2 Usage example</h3>
   <h3>6.2.1 Download the code and datasets</h3>
-  <p align="justify">In a drectory of your choice run the following command from your terminal:
+  <p align="justify">In a directory of your choice run the following command from your terminal:
   </p>
   <p align="justify">
     <code align="justify">$ git clone https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game</code>
@@ -112,7 +112,7 @@ The reliability, credibility and quality of the data sources is justified both t
 </p>
 <h3>6.2.3 Required dependencies </h3>  
 <p align="justify">
-The following are the required dependencies of this project. Please install them to execute the code demo. If this proves to time consuming, please check the demo video to see the code demo examples provided in the next section.
+The following are the required dependencies of this project. Please install them to execute the code demo. If this proves too time consuming, please check the demo video to see the code demo examples provided in the next section.
 </p>
   <ul>  
     <li align="justify">python = 3.11.1</li> 
@@ -195,10 +195,29 @@ Note: DO NOT try to execute any of the cells unless you have original dataset in
     </p>
     <p align="justify">
     <strong>Discussion of results</strong>:
-    As expected, due to noisy nature of raw eeg data, even when executing ICA with 35 components, most of them where classified as other. On the other hand, after applying a simple band pass filter we observe a great improvement in the distribution quality of identified artifacts and brain sources. This pattern of improvement is also observed after applyting artifact subspace reconstruction (ASR) to our data. This verifies the claim about the reliability, quality and credibility of our data sources as expressed in sub-section 3.2.
+    As expected, due to noisy nature of raw eeg data, even when executing ICA with 35 components, most of them where classified as other. On the other hand, after applying a simple band pass filter we observe a great improvement in the distribution quality of identified artifacts and brain sources. This pattern of improvement is also observed after applying artifact subspace reconstruction (ASR) to our data. This verifies the claim about the reliability, quality and credibility of our data sources as expressed in sub-section 3.2.
     </p>
-<h3>7.1.2 Visualization of raw, filtered and ASR data power spectrum plots</h3>
-<h3>7.1.3 Visualization of extracted features </h3>
+<h3>7.1.2 Visualization of raw, filtered and ASR data power spectrum density (PSD) plots</h3>
+<p align="justify"> 
+The following plots show the influence of filtering the raw data through various means, either by a passband filter or by ASR. Notice that thes PSD plots correspond to the data before performing ICA.
+
+However, we can observe the increase in power density as we move through the stages of the data preprocessing pipeline.
+
+Below, we show the PSD plots for subject 1, trial 1 at a SSVEP frequency of 8Hz:
+</p>
+<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Raw PSD plot</ins></h4>
+<p align="center">
+  <img src="/Figures/psd_plots/raw.png">
+</p>
+<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Band pass filtered PSD plot</ins></h4>
+<p align="center">
+  <img src="/Figures/psd_plots/filt.png">
+</p>
+<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - ASR PSD plot</ins></h4>
+<p align="center">
+  <img src="/Figures/psd_plots/asr.png">
+</p>
+<h3>7.1.3 Visualization of PSD extracted features </h3>
 <h3>7.1.4 Performance and evaluation metrics  </h3>
 
 ---
