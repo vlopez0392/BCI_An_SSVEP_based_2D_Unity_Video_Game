@@ -68,36 +68,43 @@ The reliability, credibility and quality of the data sources is justified both t
 ---
 
 <h2 align="center">5. Validation</h2>
+<h2>5.1 Software Design</h2>
 <p align="justify">
 From the software side, we validate the effectiveness and reliability of our BCI system by relying on many popular python libraries such as numpy, scikit-learn or the MNE library to explore, visualize, and analyze human neurophysiological EEG data [9]. The complete list of dependencies this project relies on is shown in section 6 Usage.
 </p>
 <p align="justify">
-Due to the large size of our dataset, we have a designed a data preprocessing API (See the ssvep_preprocessing_API.py module in the Code directory) to parse our data into the appropriate MNE data structures, perform the necessary IO to load the required datasets, save the clean datasets to the appropriate directories, and finally to plot the results shown in section 7 Results. This API is created based on good software practices such as DRY and KISS among others. 
+Due to the large size of our dataset, we had to design a data preprocessing API (See the ssvep_preprocessing_API.py module in the Code directory) to parse our data into the appropriate MNE data structures, perform the necessary IO to load the required datasets, save the clean datasets to the appropriate directories, and finally to plot the results shown in section 7 Results. This API is created based on good software practices such as DRY and KISS among others. 
 </p>
 <p align="justify">
-For instance, consider we want to reconstruct brain source EEG data from the ICs composed by ICA. The following code snippet achieves this:
+For instance, consider we want to reconstruct brain source EEG data from the ICs computed by ICA. The following code snippet achieves this:
 </p>
 
 ```
-    ### Reconstruct brain EEG data from ICs - This is the clean data that will be fed in to the classifier
-    def reconstruct_eeg_data_ICA(raw_dict , ica_dict, includeOther = True):
-        brain_source_data = {};
-        include = []
-        for key,rawArray in raw_dict.items():
-            include = ica_dict[key].labels_['brain'];
-            if(includeOther):
-                include.extend(ica_dict[key].labels_['other']);
-            brain_source_data[key] = ica_dict[key].apply(raw_dict[key], include = include);
-        
-        return brain_source_data;
+### Reconstruct brain EEG data from ICs - This is the clean data that will be fed into the classifier
+def reconstruct_eeg_data_ICA(raw_dict , ica_dict, includeOther = True):
+    brain_source_data = {};
+    include = []
+    for key,rawArray in raw_dict.items():
+        include = ica_dict[key].labels_['brain'];
+        if(includeOther):
+            include.extend(ica_dict[key].labels_['other']);
+        brain_source_data[key] = ica_dict[key].apply(raw_dict[key], include = include);
+    
+    return brain_source_data;
 ```
 
+<p align="justify">
+The variables 'raw_dict' and 'ica_dict' are dictionary data structures whose keys are of the form 'sub#_fHz_Trial#' and contain raw processed data (raw, band pass filtered or ASR) for a specific subject,frequency for all trials and and their respective ICs. This data structure design allowed for the creation of functions like the one shown above and many others in the API. Their simplicity in conjunction with the power MNE python library made this project possible.
+</p>
 <p align="justify">
 Note 1: The preprocessing API can be found here: <a href ="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/blob/main/Code/ssvep_preprocessing_API.py">SSVEP_preprocessing_API</a>
 
 Note 2: A demo video is provided in section 6 Usage to showcase the API's performance and quality.
 </p>
+<h2>5.2 Quantitative and qualitative validation methods</h2>
+<p align="justify">Quantitative and qualitative methods were also explored to validate the effectiveness and reliability of our BCI system. We made many qualitatve judgements based on both EEG time-series and PSD spectrum plots based on the literature and the dataset itself. For instance, based on experiment number 3 conducted in [3] by the authors of the dataset, subject 1 was prone to have excellent SSVEP responses at a frequency of 8 Hz. This was verified and validated by our experiments and thus we make use of this subject's PSD plot in this report.</p>
 
+<p align="justify">In addition, we make a quantitative analysis of the average number and type artifacts found by the MNE ICAlabel package in section 7 Results. We conclude that as the original dataset goes through each of the stages of the data preprocessing pipeline, the number of brain sources tends to increase as well as observing a better distribution of the type and average number of other components.</p>
 ---
 
 <h2 align="center">6. Usage</h2>

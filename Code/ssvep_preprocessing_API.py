@@ -222,7 +222,7 @@ def labelICA(rawDict, ica):
     
     return labels_prob;
 
-### Reconstruct brain EEG data from ICs - This is the clean data that will be fed in to the classifier
+### Reconstruct brain EEG data from ICs - This is the clean data that will be fedin to the classifier
 def reconstruct_eeg_data_ICA(raw_dict , ica_dict, includeOther = True):
     brain_source_data = {};
     include = []
