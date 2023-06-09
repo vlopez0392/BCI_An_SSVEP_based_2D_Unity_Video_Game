@@ -13,6 +13,7 @@ Demo video link: <a href ="https://drive.google.com/drive/folders/15Yd4443tgOLVJ
 ---
 
 <h2 align="center">2. Introduction</h2>
+<p align="justify">The aim of this project is to develop a functional BCI system such that it can be integrated to a commercial application. More specifically to a video game.The sections of this report are as follow: Section 3 provides the dataset description and data quality evaluation and justification. Section 4 provides the BCI system architecture. Section 5 provides the methods that validate our findings and our system. Section 6 provides usage examples of the developed software for the BCI system. Section 7 provides our findings and results and finally, Section 8 provides the consulted references.</p>
 
 ---
 
@@ -343,11 +344,11 @@ Each of the samples had 313 data points corresponding to the power spectrum dens
 Classification is performed using the sklearn.svm SVC python library found in [11] which is based in the original NTU-based implementation by Chih-Chung Chang and Chih-Jen Lin [12].
 </p>
 
-<h3 align = "center"><ins> Raw brain-source ICs classification results </ins></h3>
+<h3 align = "center"><ins> Raw brain-source extracted EEG signals classification results </ins></h3>
 <p align="center">
   <img src="/Figures/metrics/raw.png">
 </p>
-<h3 align = "center"><ins> ASR corrected brain-source ICs classification results </ins></h3>
+<h3 align = "center"><ins> ASR corrected brain-source extracted EEG signals classification results </ins></h3>
 <p align="center">
   <img src="/Figures/metrics/ASR_results.png">
 </p>
