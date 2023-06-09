@@ -121,9 +121,11 @@ Finally, we make use of Machine Learning techniques such as support vector machi
   <h3>6.2.1 Download the code and datasets</h3>
   <p align="justify">In a directory of your choice run the following command from your terminal:
   </p>
-  <p align="justify">
-    <code align="justify">$ git clone https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game</code>
-  </p>
+
+  ```
+  $ git clone https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game
+  ``` 
+
   <p align="justify">You can also download a zip file of the code by pressing the green <>Code button as shown  in the figure below:</p>
   <p align="center">
       <img src="/Figures/usage/code_download_usage.png">
@@ -183,9 +185,13 @@ Note: You can see this process in the project demo video too.
 <strong>Example 1</strong>: Plot a time series eeg signal for all channels of the raw brain source dataset for subject 1 and a frequency of 8Hz. Plot a single trial. 
 
 Then, to plot the EEG time series of Example 1 we input:
+</p>
 
-<code align="justify">$ python code_demo.py -plot -time 1 8 -raw 1</code>
+```
+$ python code_demo.py -plot -time 1 8 -raw 1
+```
 
+<p align="justify">
 The following EEG time series plot is output:
 </p>
 <p align="center">
@@ -195,9 +201,13 @@ The following EEG time series plot is output:
 <strong>Example 2</strong>: Plot the power spectrum density (PSD) for all channels of the ASR brain source dataset for subject 1 and a frequency of 14Hz:
 
 Then, to plot the PSD plot of Example 2 we input:
+</p>
 
-<code align="justify">$ python code_demo.py -plot -psd 1 14 -asr</code>
+```
+$ python code_demo.py -plot -psd 1 14 -asr</code>
+```
 
+<p align="justify">
 PSD plots for all trials will be output. The following figure shows the PSD plot of the selected ASR data for trial 1:
 </p>
 <p align="center">
