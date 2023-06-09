@@ -70,7 +70,8 @@ The reliability, credibility and quality of the data sources is justified both t
 <h2 align="center">5. Validation</h2>
 <p align="justify">
 From the software side, we validate the effectiveness and reliability of our BCI system by relying on many popular python libraries such as numpy, scikit-learn or the MNE library to explore, visualize, and analyze human neurophysiological EEG data [9]. The complete list of dependencies this project relies on is shown in section 6 Usage.
-
+</p>
+<p align="justify">
 Due to the large size of our dataset, we have a designed a data preprocessing API (See the ssvep_preprocessing_API.py in the Code directory) to parse our data into the appropriate MNE data structures, perform the necessary IO to load the required datasets, save the clean datasets to the appropriate directories, and finally to plot the results shown in section 7 Results.
 </p>
 
