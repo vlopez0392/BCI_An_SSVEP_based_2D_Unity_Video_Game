@@ -8,7 +8,8 @@ PTIME_args_len = 6;
 PSD_args =  ['-plot', '-psd']
 PTIME_args = ['-plot', '-time']
 target_directories = ['-raw', '-filt','-asr'];
-MODEL_args = ['-raw','-asr']
+MODEL_args = ['-raw','-asr'];
+MODEL_plots = ['-features','-confusion'];
 
 def main():
     args_in = sys.argv[1:]
@@ -45,7 +46,26 @@ def main():
             else:
                 print("Fatal Error: Input invalid subject, frequency");
     elif args_in[0] == '-model':
-        pass;
+        if len(args_in) < 3:
+            print("Fatal Error: Please input exactly three arguments in the correct format.")
+        else:
+            target = args_in[1];
+            if target not in MODEL_args:
+                print("Fatal Error: Please input a correct dataset parameter: -raw or -asr");
+            else:
+                plot_model = args_in[2];
+                if plot_model not in MODEL_plots:
+                    print("Fatal Error: Please input a correct plot type parameter: -features or -confusion");
+                else:
+                    frequency = 8;
+                    subject   = 1;
+                    target = target[1:].upper();
+                    dataset = model.load_data(frequency,target);
+                    if plot_model == '-features':
+                        channels = ['O1','O2'];
+                        model.load_label_plot_training_data(dataset,frequency,channels,1,40,True);
+                    else:
+                        pass;
     else:
         print("Fatal Error: Please enter input arguments correctly");
 main();
