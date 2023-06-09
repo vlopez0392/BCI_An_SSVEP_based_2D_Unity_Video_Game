@@ -218,6 +218,16 @@ PSD plots for all trials will be output. The following figure shows the PSD plot
       <img src="/Figures/usage/example2.png">
 </p>
 <h4>6.2.4.3 Plotting extracted features and classifier output figures </h4> 
+<p align="justify">
+The usage is as follows:
+</p>
+
+```
+$ python code_demo.py [-model], [-raw, -asr],[-features,-confusion] 
+```
+<p align="justify">
+No usage examples are provided. However, some examples are shown in the demo video. Executing the code_demo.py file with the parameters above allow us to plot some extracted features from either the brain-source raw and asr datasets. In addition, when the parameter -confusion is selected the confusion matrices shown in section 7 Results in GUI form. The corresponding evaluation metrics are output to the terminal. 
+</p>
 
 <h4>6.2.4.4 Google Colab notebook - Data preprocessing (visualization only) </h4> 
 <p align="justify">
