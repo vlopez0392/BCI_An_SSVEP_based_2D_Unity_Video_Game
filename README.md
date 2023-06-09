@@ -69,6 +69,13 @@ The reliability, credibility and quality of the data sources is justified both t
 ---
 
 <h2 align="center">4. Model Framework</h2>
+<p align="justify">
+The model framework and architecture of our project is based on a typical SSVEP-based BCI system architecture. Reference [13] provides a nice figure of the model architecture which is shown below:
+</p>
+  <p align="center">
+    <img src="/Figures/architecture.png">
+  </p>
+
 
 ---
 
@@ -304,7 +311,7 @@ Each of the samples had 313 data points corresponding to the power spectrum dens
 </p>
 
 <p align="justify"> 
-Classification is performed using the sklearn.svm SVC python library found in [12] which is based in the original NTU-based implementation by Chih-Chung Chang and Chih-Jen Lin [13].
+Classification is performed using the sklearn.svm SVC python library found in [11] which is based in the original NTU-based implementation by Chih-Chung Chang and Chih-Jen Lin [12].
 </p>
 
 <h3 align = "center"><ins> Raw brain-source ICs classification results </ins></h3>
@@ -376,5 +383,8 @@ The game code is found here: <a href ="https://drive.google.com/drive/folders/17
   </p>
   <p>
   [12] https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+  </p>
+  <p>
+  [13] Demir, Ali Fatih & Arslan, Huseyin & Uysal, Ismail. (2019). Bio-Inspired Filter Banks for Frequency Recognition of SSVEP-Based Brain–Computer Interfaces. IEEE Access. 7. 160295-160303. 10.1109/ACCESS.2019.2951327. 
   </p>
 <ol>
