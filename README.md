@@ -197,6 +197,7 @@ Note: DO NOT try to execute any of the cells unless you have original dataset in
     <strong>Discussion of results</strong>:
     As expected, due to noisy nature of raw eeg data, even when executing ICA with 35 components, most of them where classified as other. On the other hand, after applying a simple band pass filter we observe a great improvement in the distribution quality of identified artifacts and brain sources. This pattern of improvement is also observed after applying artifact subspace reconstruction (ASR) to our data. This verifies the claim about the reliability, quality and credibility of our data sources as expressed in sub-section 3.2.
     </p>
+<br/>
 <h3>7.1.2 Visualization of raw, filtered and ASR data power spectrum density (PSD) plots</h3>
 <p align="justify"> 
 The following plots show the influence of filtering the raw data through various means, either by a passband filter or by ASR. Notice that thes PSD plots correspond to the data before performing ICA. In them, we can observe the increase in power density as we move through the stages of the data preprocessing pipeline. Below, we show the PSD plots for subject 1, trial 1 at a SSVEP frequency of 8Hz:
@@ -213,7 +214,10 @@ The following plots show the influence of filtering the raw data through various
 <p align="center">
   <img src="/Figures/psd_plots/asr.png">
 </p>
-<h3>7.1.3 Visualization of PSD extracted features </h3>
+<br/>
+<h3>7.1.3 Visualization of IC brain-source PSD extracted features from dataset</h3>
+
+<br/>
 <h3>7.1.4 Performance and evaluation metrics  </h3>
 
 ---
