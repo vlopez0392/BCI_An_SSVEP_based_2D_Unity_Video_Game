@@ -278,7 +278,23 @@ In the left figure, we have the features corresponding to subject 1 (all trials)
 <p align="center">
   <img src="/Figures/features/features.png">
 </p>
-<h3>7.2.2 Evaluation metrics considered</h3>
+<h3>7.2.2 Evaluation metrics</h3>
+<p align="justify"> 
+The figures show below correspond to the SVM-classifier results when trained with brain-source raw and asr cleaned data. 8 channels of interest were selected as feature extraction targets in order to construct the training, testing and label datasets. 
+</p>
+
+<p align="justify"> 
+Each of the samples had 313 data points corresponding to the power spectrum density computed between frequencies of 1 and 40 Hz. The number of samples correspond to product of the number of subjects = 4, number of trials = 5 and number of target channels = 8. Thus, per SSVEP frequency, there were a total of 160 samples for which our extracted dataset consisted of 480 samples with 313 features each. 
+</p>
+
+<h3 align = "center"><ins> Raw brain-source ICs classification results </ins></h3>
+<p align="center">
+  <img src="/Figures/metrics/raw.png">
+</p>
+<h3 align = "center"><ins> ASR corrected brain-source ICs classification results </ins></h3>
+<p align="center">
+  <img src="/Figures/metrics/ASR_results.png">
+</p>
 
 ---
 
