@@ -73,7 +73,7 @@ The reliability, credibility and quality of the data sources is justified both t
 The model framework and architecture of our project is based on a typical SSVEP-based BCI system architecture. Reference [13] provides a nice figure of the model architecture which is shown below:
 </p>
   <p align="center">
-    <img src="/Figures/architecture.png">
+    <img src="/Figures/usage/architecture.png">
   </p>
 
 
