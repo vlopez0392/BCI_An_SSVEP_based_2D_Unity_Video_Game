@@ -76,7 +76,7 @@ Due to the large size of our dataset, we have a designed a data preprocessing AP
 </p>
 <p align="justify">
 For instance, consider we want to reconstruct brain source EEG data from the ICs composed by ICA. The following code snippet achieves this:
-
+</p>
 <code> 
 ### Reconstruct brain EEG data from ICs - This is the clean data that will be fed in to the classifier
 def reconstruct_eeg_data_ICA(raw_dict , ica_dict, includeOther = True):
@@ -90,7 +90,6 @@ def reconstruct_eeg_data_ICA(raw_dict , ica_dict, includeOther = True):
     
     return brain_source_data;
 </code>
-</p>
 
 
 <p align="justify">
