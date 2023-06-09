@@ -1,9 +1,14 @@
 <h1>Spring 2023 Brain Computer Interfaces: Fundamentals and Applications Final Project, NTHU, Taiwan</h2>
 
-<h2 align="center">1. Project members</h2>
+<h2 align="center">1. Project members and Demo Video</h2>
+<h2 align="center">1.1. Members</h2>
 <h3> * 巫冠緯           - 111065543  </h3>
 <h3> * Wu, Shao-Hung	 - 111062640  </h3>
 <h3> * Victor D. Lopez - 110062426  </h3>
+<h2 align="center">1.2 Demo video</h2>
+<p align="justify">
+Demo video link: <a href ="https://drive.google.com/drive/folders/15Yd4443tgOLVJZ8FmqVolhtWGg87aLyy?usp=drive_link">Demo video</a>
+</p>
 
 ---
 
