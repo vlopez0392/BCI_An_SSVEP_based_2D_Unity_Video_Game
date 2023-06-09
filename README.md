@@ -181,15 +181,15 @@ Note: DO NOT try to execute any of the cells unless you have original dataset in
     each component as non-brain artifactual or Brain ICs for raw, band-pass filtered, and EEG data using corrected
     using ASR. We provide averages per SSVEP frequency across all subjects and trials for each of the cases discussed previously:</p>
     <p align="justify"> Number of ICs: 35 components</p>
-    <h4 align = "center"><ins>SSVEP 8 Hz frequency - 4 subjects with 5 trials each </ins></h4>
+    <h3 align = "center"><ins>SSVEP 8 Hz frequency - 4 subjects with 5 trials each </ins></h3>
     <p align="center">
       <img src="/Figures/ICA_label_averages/8Hz_ICA_label_averages.png">
     </p>
-    <h4 align = "center"><ins>SSVEP 14 Hz frequency - 4 subjects with 5 trials each</ins></h4>
+    <h3 align = "center"><ins>SSVEP 14 Hz frequency - 4 subjects with 5 trials each</ins></h3>
     <p align="center">
       <img src="/Figures/ICA_label_averages/14Hz_ICA_label_averages.png">
     </p>
-    <h4 align = "center"><ins>SSVEP 28 Hz frequency - 4 subjects with 5 trials each</ins></h4>
+    <h3 align = "center"><ins>SSVEP 28 Hz frequency - 4 subjects with 5 trials each</ins></h3>
     <p align="center">
       <img src="/Figures/ICA_label_averages/28Hz_ICA_label_averages.png">
     </p>
@@ -201,15 +201,15 @@ Note: DO NOT try to execute any of the cells unless you have original dataset in
 <p align="justify"> 
 The following plots show the influence of filtering the raw data through various means, either by a passband filter or by ASR. Notice that the PSD plots correspond to the data before performing ICA. In them, we can observe the increase in power density at the target frequencies and their harmonics as we move through the stages of the data preprocessing pipeline. Below, we show the PSD plots for subject 1, trial 1 at a SSVEP frequency of 8Hz:
 </p>
-<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Raw PSD</ins></h4>
+<h3 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Raw PSD</ins></h3>
 <p align="center">
   <img src="/Figures/psd_plots/raw.png">
 </p>
-<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Band pass filtered PSD</ins></h4>
+<h3 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - Band pass filtered PSD</ins></h3>
 <p align="center">
   <img src="/Figures/psd_plots/filter.png">
 </p>
-<h4 align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - ASR PSD</ins></h4>
+<h3> align = "center"><ins>SSVEP 8 Hz frequency - Subject 1, Trial 1 - ASR PSD</ins></h3>
 <p align="center">
   <img src="/Figures/psd_plots/asr.png">
 </p>
