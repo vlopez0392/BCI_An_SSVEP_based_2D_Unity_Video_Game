@@ -1,7 +1,7 @@
 # BCI_An_SSVEP_based_2D_Unity_Video_Game
 <h1>Final Project: Spring 2023 Brain Computer Interfaces: Fundamentals and Applications, NTHU, Taiwan</h2>
 
-<h3 align="center">1. Project members</h3>
+<h2 align="center">1. Project members</h2>
 <ul>
   <li>巫冠緯           - 111065543  </li>
   <li>Wu, Shao-Hung	  -	111062640  </li>
@@ -10,11 +10,11 @@
 
 ---
 
-<h3 align="center">2. Introduction</h3>
+<h2 align="center">2. Introduction</h2>
 
 ---
 
-<h3 align="center">3. Data description</h3>
+<h2 align="center">3. Data description</h2>
 <h3>3.1 Experimental design and dataset overview </h3>
 <p align="justify">As required by the final project guidelines, we first describe the experimental design/paradigm, procedure for collecting data, hardware and software used, data size, number of channels, sampling rate, the website from which our data was collected, the owner and its source.</p>
 
@@ -66,15 +66,15 @@ The reliability, credibility and quality of the data sources is justified both t
 
 ---
 
-<h3 align="center">4. Model Framework</h3>
+<h2 align="center">4. Model Framework</h2>
 
 ---
 
-<h3 align="center">5. Validation</h3>
+<h2 align="center">5. Validation</h2>
 
 ---
 
-<h3 align="center">6. Usage</h3>
+<h2 align="center">6. Usage</h2>
   <h3>6.1 Code</h3>
   <p align="justify">All the code we developed during this project can be found in this repository in the Code directory located in the main directory. The following link will take you there: <a href="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/tree/main/Code">Code</a></p>
 
@@ -174,7 +174,7 @@ Note: DO NOT try to execute any of the cells unless you have original dataset in
 
 ---
 
-<h3 align="center">7. Results</h3>
+<h2 align="center">7. Results</h2>
 <h3>7.1 Preprocessing results</h3>
 <h3>7.1.1 MNE-ICA and MNE-ICA label results</h3>
     <p align="justify">The following tables showcase our results after applying ICA to our EEG data and using MNE-ICA label to 
