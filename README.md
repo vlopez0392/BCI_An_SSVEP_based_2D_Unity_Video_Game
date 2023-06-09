@@ -77,17 +77,20 @@ Due to the large size of our dataset, we have a designed a data preprocessing AP
 <p align="justify">
 For instance, consider we want to reconstruct brain source EEG data from the ICs composed by ICA. The following code snippet achieves this:
 </p>
-  ### Reconstruct brain EEG data from ICs - This is the clean data that will be fed in to the classifier
-  def reconstruct_eeg_data_ICA(raw_dict , ica_dict, includeOther = True):
-      brain_source_data = {};
-      include = []
-      for key,rawArray in raw_dict.items():
-          include = ica_dict[key].labels_['brain'];
-          if(includeOther):
-              include.extend(ica_dict[key].labels_['other']);
-          brain_source_data[key] = ica_dict[key].apply(raw_dict[key], include = include);
-      
-      return brain_source_data;
+
+```
+    ### Reconstruct brain EEG data from ICs - This is the clean data that will be fed in to the classifier
+    def reconstruct_eeg_data_ICA(raw_dict , ica_dict, includeOther = True):
+        brain_source_data = {};
+        include = []
+        for key,rawArray in raw_dict.items():
+            include = ica_dict[key].labels_['brain'];
+            if(includeOther):
+                include.extend(ica_dict[key].labels_['other']);
+            brain_source_data[key] = ica_dict[key].apply(raw_dict[key], include = include);
+        
+        return brain_source_data;
+```
 
 <p align="justify">
 Note 1: The preprocessing API can be found here: <a href ="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/blob/main/Code/ssvep_preprocessing_API.py">SSVEP_preprocessing_API</a>
