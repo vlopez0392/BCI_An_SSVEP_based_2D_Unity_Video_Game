@@ -7,6 +7,7 @@ from sklearn.svm import SVC
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 import sklearn.metrics as metrics
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 ### Designed by Victor D. Lopez :)
 
@@ -90,7 +91,7 @@ def make_training_label_dataset(target, channels):
 
    return [train_dataset,label_dataset];
 
-def SVM_pipeline(train_label_dataset):
+def SVM_pipeline(train_label_dataset, plot_confusion = True):
     X = train_label_dataset[0]; ## Training data
     y = train_label_dataset[1]; ## Labels for each training sample
     
@@ -110,3 +111,9 @@ def SVM_pipeline(train_label_dataset):
     y_pred = svm.predict(X_test_scaled);
     print(metrics.classification_report(y_test, y_pred))
     
+    cm = confusion_matrix(y_test, y_pred, labels=svm.classes_);
+    ##Plot results
+    if plot_confusion:
+        disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=svm.classes_);
+        disp.plot();
+        plt.show();
