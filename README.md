@@ -206,7 +206,7 @@ The following are the required dependencies of this project. Please install them
     <li align="justify">sklearn = 1.2.2</li>
     <li align="justify">mne_icalabel = 0.4</li>
     <li align="justify">torch = 2.0.1</li>
-    <li align="justify">asr [8]</li> 
+    <li align="justify">asrpy [8]</li> 
   </ul>  
 <h3>6.2.4 Code demo </h3> 
 <p align="justify">
