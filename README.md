@@ -293,7 +293,7 @@ Then, to plot the confusion matrix we input:
 </p>
 
 ```
-$ python code_demo.py -model -asr -features
+$ python code_demo.py -model -asr -confusion
 ```
 
 <p align="justify">
