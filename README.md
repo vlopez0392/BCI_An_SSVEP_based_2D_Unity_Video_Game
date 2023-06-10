@@ -10,7 +10,10 @@
   <img src="/Figures/usage/demo_video.png" style="width: 80%;">
 </p>
 <p align="justify">
-Demo video link: <a href ="https://drive.google.com/drive/folders/15Yd4443tgOLVJZ8FmqVolhtWGg87aLyy?usp=drive_link">Demo video</a>
+Demo video link on Drive: <a href ="https://drive.google.com/drive/folders/15Yd4443tgOLVJZ8FmqVolhtWGg87aLyy?usp=drive_link">Demo video</a>
+</p>
+<p align="justify">
+Demo video link on Youtube: <a href ="https://www.youtube.com/watch?v=CrulumB8ULY">Demo video</a>
 </p>
 
 ---
