@@ -19,7 +19,9 @@ Demo video link on Youtube: <a href ="https://youtu.be/I1fgnRXkMjg">Demo video</
 ---
 
 <h2 align="center">2. Introduction</h2>
-<p align="justify">The aim of this project is to develop a functional BCI system such that it can be integrated to a commercial application. More specifically to a video game.The sections of this report are as follow: Section 3 provides the dataset description and data quality evaluation and justification. Section 4 provides the BCI system architecture. Section 5 provides the methods that validate our findings and our system. Section 6 provides usage examples of the developed software for the BCI system. Section 7 provides our findings and results and finally, Section 8 provides the consulted references.</p>
+<p align="justify">The aim of this project is to develop a functional BCI system such that it can be integrated to a commercial application. More specifically to a video game. From a publicly available SSVEP dataset, we apply the usual steps of a Machine Learning pipeline such as data preprocessing, feature extraction and feature classification. We provide a detailed report of our findings, software design and implementation, required dependencies, and usage among others.
+
+The sections of this report are as follows: Section 3 provides the dataset description and data quality evaluation and justification. Section 4 provides the BCI system architecture. Section 5 provides the methods that validate our findings and our system. Section 6 provides usage examples of the developed software for the BCI system. Section 7 provides our findings and results and finally, Section 8 provides the consulted references.</p>
 
 ---
 
