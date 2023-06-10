@@ -86,7 +86,7 @@ The model framework and architecture of our project is based on a typical SSVEP-
     <img src="/Figures/usage/architecture.png" style="width: 75%;" >
   </p>
   <p align="justify">
-  Since our data is extracted from the dataset described in section 3.1, this project focuses mainly on the following three components:
+  Since our data is extracted from the dataset described in section 3.1, this project focuses mainly on signal processing and on the following three components:
   </p>
   <ol>
     <li align="justify">Data preprocessing</li>
