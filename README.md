@@ -107,13 +107,13 @@ The model framework and architecture of our project is based on a typical SSVEP-
   </p>
   <p align="justify">
   Artifact subspace reconstruction on the other hand, reduces corrects artifacts such that the resulting data better represent the
-  brain EEG signals. The ASR library used in this project is based on reference [8]. Finally ICA and ICA-label allow for the reconstruction of the brain-source dataset (final step) by identifying the ICs corresponding to brain sources and ICA-label allows us to identify the kind of artifacts from every IC. Relevant results are provided in Section 7. The implemented ICA and ICA-label models are based on references [6] and [7].
+  brain EEG signals. The ASR library used in this project is based on reference [8]. Finally ICA and ICA-label allow for the reconstruction of the brain-source dataset (final step) by identifying the ICs corresponding to brain sources and ICA-label allows us to identify the kind of artifacts from every IC.The implemented ICA and ICA-label models are based on references [6] and [7]. Relevant results are provided in Section 7.
   </p>
   <p align="justify">
- <strong> 2. Feature extraction</strong> Once our data has been reconstructed, we may extract features of interest. In our case, we are interested in brain-source EEG signals coming from the visual cortex or the occipital lobe of the brain. From the 10-20 EEG placement system [14], the O1 and O2 electrodes are placed in this region of the brain, thus we extract features as power spectrum density data points from 8 channels from the 128-channel Biosemi montage which roughly correspond to the O1 and O2 electrodes mentioned previously. This feature extraction process is similar to the one conducted in reference [13]. Relevant results are provided in Section 7.
+ <strong> 2. Feature extraction</strong> Once our data has been reconstructed, we may extract features of interest. In our case, we are interested in brain-source EEG signals coming from the visual cortex or the occipital lobe of the brain. From the 10-20 EEG placement system [14], the O1 and O2 electrodes are placed in this region of the brain, thus we extract features as power spectrum density data points from 8 channels from the 128-channel Biosemi montage which roughly correspond to the O1 and O2 electrodes mentioned previously. This feature extraction process is similar to the one conducted in reference [10]. Relevant results are provided in Section 7.
  </p>
  <p align="justify">
-<strong> 3. Feature classification </strong> Finally, we implement some machine learning models such as support vector machines or SVMs to classify each feature according to their specific SSVEP frequency. We compare the performance of the classifier on several evaluation metrics both on raw and ASR corrected brain-source datasets to validate both the data preprocessing quality and the effectiveness and reliability of our BCI system. Relevant results are provided in Section 7.
+<strong> 3. Feature classification </strong> Finally, we implement some machine learning models such as support vector machines (SVMs) to classify each feature according to their specific SSVEP frequency label. We compare the performance of the classifier on several evaluation metrics both on RAW and ASR corrected brain-source datasets to validate both the data preprocessing quality and the effectiveness and reliability of our BCI system. Relevant results are provided in Section 7.
 </p>
 
 ---
@@ -150,7 +150,7 @@ The variables 'raw_dict' and 'ica_dict' are dictionary data structures whose key
 <p align="justify">
 Note 1: The preprocessing API can be found here: <a href ="https://github.com/vlopez0392/BCI_An_SSVEP_based_2D_Unity_Video_Game/blob/main/Code/ssvep_preprocessing_API.py">SSVEP_preprocessing_API</a>
 
-Note 2: A demo video is provided in section 6 Usage to showcase the API's performance and quality.
+Note 2: A demo video is provided in section 1.2 Demo Video to showcase the API's performance and quality.
 </p>
 <h2>5.2 Quantitative and qualitative validation methods</h2>
 <p align="justify">Quantitative and qualitative methods were also explored to validate the effectiveness and reliability of our BCI system. We made many qualitatve judgements based on both EEG time-series and PSD spectrum plots based on the literature and the dataset itself. For instance, based on experiment number 3 conducted in [3] by the authors of the dataset, subject 1 was prone to have excellent SSVEP responses at a frequency of 8 Hz. This was verified and validated by our experiments and thus we make use of this subject's PSD plot in this report.</p>
