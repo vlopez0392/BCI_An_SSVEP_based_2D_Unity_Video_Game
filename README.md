@@ -259,7 +259,7 @@ Then, to plot the PSD plot of Example 2 we input:
 </p>
 
 ```
-$ python code_demo.py -plot -psd 1 14 -asr</code>
+$ python code_demo.py -plot -psd 1 14 -asr
 ```
 
 <p align="justify">
@@ -276,6 +276,26 @@ The usage is as follows:
 ```
 $ python code_demo.py [-model], [-raw, -asr],[-features,-confusion] 
 ```
+<p align="justify">
+<strong>Example 3</strong>: Plot the extracted features from the ASR dataset of subject 1 at a frequency of 8 Hz (Default for demo):
+
+Then, to plot features we input:
+</p>
+
+```
+$ python code_demo.py -model -asr -features
+```
+
+<p align="justify">
+<strong>Example 4</strong>: Run the SVM classifier on the features extracted from Example 3 and plot the resulting confusion matrix.
+
+Then, to plot the confusion matrix we input:
+</p>
+
+```
+$ python code_demo.py -model -asr -features
+```
+
 <p align="justify">
 No usage examples are provided. However, some examples are shown in the demo video. Executing the code_demo.py file with the parameters above allow us to plot some extracted features from either the brain-source raw and asr datasets. In addition, when the parameter -confusion is selected the confusion matrices shown in section 7 Results in GUI form. The corresponding evaluation metrics are output to the terminal. 
 </p>
