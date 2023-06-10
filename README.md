@@ -7,7 +7,7 @@
 <h3> * Victor D. Lopez - 110062426  </h3>
 <h3>1.2 Demo video</h3>
 <p align="center">
-  <img src="/Figures/usage/demo_video.png" style="width: 80%;">
+  <a href ="https://youtu.be/I1fgnRXkMjg"><img src="/Figures/usage/demo_video.png" style="width: 80%;"></a>
 </p>
 <p align="justify">
 Demo video link on Drive: <a href ="https://drive.google.com/drive/folders/15Yd4443tgOLVJZ8FmqVolhtWGg87aLyy?usp=drive_link">Demo video</a>
