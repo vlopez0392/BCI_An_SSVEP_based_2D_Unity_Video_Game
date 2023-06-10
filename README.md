@@ -91,7 +91,7 @@ The model framework and architecture of our project is based on a typical SSVEP-
     <strong>1. Data preprocessing:</strong> From the three signal processing techniques above, data preprocessing is the most time consuming and computationally expensive stage to carry out. As required by the final project guidelines, the following data preprocessing pipeline (shown in green in the figure) was implemented: 
   </p>
   <p align="center">
-    <img src="/Figures/usage/pipe.jpeg" style="width: 85%;">
+    <img src="/Figures/usage/pipeline.jpeg" style="width: 85%;">
   </p>
    <p align="justify">
   We have designed a preprocessing API (See section 5.1) to perform the preprocessing stages. It's purpose it's to effectively implement the stages shown in the green rectangle in the figure above by working in conjunction with the Python MNE software library for EEG and MEG data exploration[9] and handling the raw data from the dataset described in the previous section. Bandpass filtering is applied through the MNE library to eliminate the influence of frequencies above 50 Hz (line noise). 
