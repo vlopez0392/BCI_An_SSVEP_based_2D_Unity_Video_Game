@@ -5,7 +5,7 @@
 <h3> * 巫冠緯           - 111065543  </h3>
 <h3> * Wu, Shao-Hung	 - 111062640  </h3>
 <h3> * Victor D. Lopez - 110062426  </h3>
-<h3>1.2 Demo video (Click on image to wtach on Youtube)</h3>
+<h3>1.2 Demo video (Click on image to watch on Youtube)</h3>
 <p align="center">
   <a href ="https://youtu.be/I1fgnRXkMjg"><img src="/Figures/usage/demo_video.png" style="width: 80%;"></a>
 </p>
