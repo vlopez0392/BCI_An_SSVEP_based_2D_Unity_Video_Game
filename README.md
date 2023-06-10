@@ -110,7 +110,7 @@ The model framework and architecture of our project is based on a typical SSVEP-
   brain EEG signals. The ASR library used in this project is based on reference [8]. Finally ICA and ICA-label allow for the reconstruction of the brain-source dataset (final step) by identifying the ICs corresponding to brain sources and ICA-label allows us to identify the kind of artifacts from every IC. Relevant results are provided in Section 7. The implemented ICA and ICA-label models are based on references [6] and [7].
   </p>
   <p align="justify">
- <strong> 2. Feature extraction</strong> Once our data has been reconstructed, we may extract features of interest. In our case, we are interested in brain-source EEG signals coming from the visual cortex or the occipital lobe of the brain. From the 10-20 system, the O1 and O2 electrodes are placed in this region of the brain, thus we extract features as power spectrum density data points from 8 channels from the 128-channel Biosemi montage which roughly correspond to the O1 and O2 electrodes mentioned previously. This feature extraction process is similar to the one conducted in reference [13]. Relevant results are provided in Section 7.
+ <strong> 2. Feature extraction</strong> Once our data has been reconstructed, we may extract features of interest. In our case, we are interested in brain-source EEG signals coming from the visual cortex or the occipital lobe of the brain. From the 10-20 EEG placement system [14], the O1 and O2 electrodes are placed in this region of the brain, thus we extract features as power spectrum density data points from 8 channels from the 128-channel Biosemi montage which roughly correspond to the O1 and O2 electrodes mentioned previously. This feature extraction process is similar to the one conducted in reference [13]. Relevant results are provided in Section 7.
  </p>
  <p align="justify">
 <strong> 3. Feature classification </strong> Finally, we implement some machine learning models such as support vector machines or SVMs to classify each feature according to their specific SSVEP frequency. We compare the performance of the classifier on several evaluation metrics both on raw and ASR corrected brain-source datasets to validate both the data preprocessing quality and the effectiveness and reliability of our BCI system. Relevant results are provided in Section 7.
@@ -425,5 +425,8 @@ The game code is found here: <a href ="https://drive.google.com/drive/folders/17
   </p>
   <p>
   [13] Demir, Ali Fatih & Arslan, Huseyin & Uysal, Ismail. (2019). Bio-Inspired Filter Banks for Frequency Recognition of SSVEP-Based Brain–Computer Interfaces. IEEE Access. 7. 160295-160303. 10.1109/ACCESS.2019.2951327. 
+  </p>
+  <p>
+  [14] https://www.ers-education.org/lrmedia/2016/pdf/298830.pdf
   </p>
 <ol>
