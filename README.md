@@ -5,15 +5,12 @@
 <h3> * 巫冠緯           - 111065543  </h3>
 <h3> * Wu, Shao-Hung	 - 111062640  </h3>
 <h3> * Victor D. Lopez - 110062426  </h3>
-<h3>1.2 Demo video</h3>
+<h3>1.2 Demo video (Click on image to wtach on Youtube)</h3>
 <p align="center">
   <a href ="https://youtu.be/I1fgnRXkMjg"><img src="/Figures/usage/demo_video.png" style="width: 80%;"></a>
 </p>
 <p align="justify">
 Demo video link on Drive: <a href ="https://drive.google.com/drive/folders/15Yd4443tgOLVJZ8FmqVolhtWGg87aLyy?usp=drive_link">Demo video</a>
-</p>
-<p align="justify">
-Demo video link on Youtube: <a href ="https://youtu.be/I1fgnRXkMjg">Demo video</a>
 </p>
 
 ---
