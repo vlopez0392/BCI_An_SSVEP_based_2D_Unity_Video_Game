@@ -103,7 +103,7 @@ The model framework and architecture of our project is based on a typical SSVEP-
     <img src="/Figures/usage/pipeline.jpeg" style="width: 85%;">
   </p>
    <p align="justify">
-  We have designed a preprocessing API (See section 5.1) to perform the data preprocessing step. It's purpose it's to effectively execute the stages shown in the green rectangle in the figure above by working in conjunction with the Python MNE software library for EEG and MEG data exploration[9]. The raw data from the dataset described in the previous section. Bandpass filtering is applied through the MNE library to eliminate the influence of frequencies above 50 Hz (line noise). 
+  We have designed a preprocessing API (See section 5.1) to perform the data preprocessing step. Its purpose it's to effectively execute the stages shown in the green rectangle in the figure above by working in conjunction with the Python MNE software library for EEG and MEG data exploration[9]. The raw data from the dataset described in the previous section. Bandpass filtering is applied through the MNE library to eliminate the influence of frequencies above 50 Hz (line noise). 
   </p>
   <p align="justify">
   Artifact subspace reconstruction on the other hand, reduces corrects artifacts such that the resulting data better represent the
